@@ -1,0 +1,30 @@
+# Only ollama.host and data_dir can be overridden by environment variables
+# (LINKMATE_OLLAMA_HOST, LINKMATE_DATA_DIR). There are no secrets in here.
+ollama:
+  host: http://localhost:11434
+  timeout_seconds: 180
+
+llm:
+  model: qwen3:0.6b
+  temperature: 0
+  num_ctx: 4096
+
+embedding:
+  model: nomic-embed-text
+  query_prefix: "search_query: "
+  document_prefix: "search_document: "
+
+retrieval:
+  mode: dense          # dense | bm25 | hybrid
+  top_k: 20
+  threshold: 0.59      # cosine similarity a contact's best hit has to reach
+  bm25_threshold: 2.0  # BM25 score a contact's best hit has to reach
+  max_candidates: 5
+
+answer:
+  max_recommendations: 3
+  notes_per_contact: 3
+  max_note_chars: 600
+  strong_from: 0.67    # cosine score from which a recommendation counts as a strong match
+
+data_dir: data
