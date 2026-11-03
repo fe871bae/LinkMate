@@ -1,0 +1,29 @@
+{
+  "id": "c_f0b9733c",
+  "name": "Liam Walsh",
+  "aliases": [],
+  "organization": "",
+  "role": "",
+  "location": "",
+  "met_context": "Coffee place",
+  "summary": "Barely known contact who might know about boats.",
+  "created_at": "2026-09-20T16:00:00Z",
+  "updated_at": "2026-09-20T16:00:00Z",
+  "notes": [
+    {
+      "id": "n_09f43668",
+      "text": "Liam, guy from the coffee place. Something with boats?",
+      "source_type": "note",
+      "created_at": "2026-09-20T16:00:00Z"
+    }
+  ],
+  "facts": [
+    {
+      "kind": "interest",
+      "value": "boats",
+      "source_note_ids": [
+        "n_09f43668"
+      ]
+    }
+  ]
+}

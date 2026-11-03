@@ -1,0 +1,43 @@
+{
+  "id": "c_14aef33f",
+  "name": "Priscilla Owens",
+  "aliases": [],
+  "organization": "Harbor Realty",
+  "role": "Real estate agent and notary public",
+  "location": "Long Beach, CA",
+  "met_context": "Lease signing",
+  "summary": "Real estate agent who also works as a notary.",
+  "created_at": "2026-03-11T16:00:00Z",
+  "updated_at": "2026-03-11T16:00:00Z",
+  "notes": [
+    {
+      "id": "n_6a56e624",
+      "text": "Priscilla Owens, Harbor Realty. Realtor, also a notary public. Notarized my lease papers for free, said to call again if I need something notarized.",
+      "source_type": "note",
+      "created_at": "2026-03-11T16:00:00Z"
+    }
+  ],
+  "facts": [
+    {
+      "kind": "skill",
+      "value": "real estate sales",
+      "source_note_ids": [
+        "n_6a56e624"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "notary public",
+      "source_note_ids": [
+        "n_6a56e624"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "notarize documents",
+      "source_note_ids": [
+        "n_6a56e624"
+      ]
+    }
+  ]
+}

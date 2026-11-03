@@ -1,0 +1,43 @@
+{
+  "id": "c_f041f49f",
+  "name": "Sanjay Mehta",
+  "aliases": [],
+  "organization": "CSULB High Performance Computing",
+  "role": "Cluster administrator",
+  "location": "Long Beach, CA",
+  "met_context": "ML reading group",
+  "summary": "Cluster admin who can give students GPU access.",
+  "created_at": "2026-09-11T23:00:00Z",
+  "updated_at": "2026-09-11T23:00:00Z",
+  "notes": [
+    {
+      "id": "n_77fff0b2",
+      "text": "Sanjay Mehta runs the CSULB HPC cluster. Mentioned at the reading group that students can request GPU time through him, and he can help move big training jobs off a laptop.",
+      "source_type": "note",
+      "created_at": "2026-09-11T23:00:00Z"
+    }
+  ],
+  "facts": [
+    {
+      "kind": "skill",
+      "value": "HPC cluster administration",
+      "source_note_ids": [
+        "n_77fff0b2"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "request GPU time",
+      "source_note_ids": [
+        "n_77fff0b2"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "move training jobs to the cluster",
+      "source_note_ids": [
+        "n_77fff0b2"
+      ]
+    }
+  ]
+}

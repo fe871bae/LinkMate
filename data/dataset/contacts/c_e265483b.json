@@ -1,0 +1,43 @@
+{
+  "id": "c_e265483b",
+  "name": "Kira Novak",
+  "aliases": [],
+  "organization": "",
+  "role": "Freelance video editor",
+  "location": "Los Angeles, CA",
+  "met_context": "Student film screening",
+  "summary": "Video editor who offered to cut a short pitch video.",
+  "created_at": "2026-10-02T04:00:00Z",
+  "updated_at": "2026-10-02T04:00:00Z",
+  "notes": [
+    {
+      "id": "n_215899e9",
+      "text": "Kira Novak, freelance video editor, cuts YouTube explainers and short films. Met at a student film screening. Offered to cut our pitch video if we send the raw footage a week ahead. Color grading is her favorite part.",
+      "source_type": "note",
+      "created_at": "2026-10-02T04:00:00Z"
+    }
+  ],
+  "facts": [
+    {
+      "kind": "skill",
+      "value": "video editing",
+      "source_note_ids": [
+        "n_215899e9"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "color grading",
+      "source_note_ids": [
+        "n_215899e9"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "cut a pitch video",
+      "source_note_ids": [
+        "n_215899e9"
+      ]
+    }
+  ]
+}

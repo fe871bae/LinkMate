@@ -1,0 +1,43 @@
+{
+  "id": "c_0588a648",
+  "name": "Isaac Goldberg",
+  "aliases": [],
+  "organization": "",
+  "role": "Freelance bookkeeper",
+  "location": "Long Beach, CA",
+  "met_context": "Freelancer coworking space",
+  "summary": "Bookkeeper for freelancers. Does not file taxes.",
+  "created_at": "2026-07-01T17:00:00Z",
+  "updated_at": "2026-07-01T17:00:00Z",
+  "notes": [
+    {
+      "id": "n_6527d0a4",
+      "text": "Isaac Goldberg does bookkeeping for freelancers at the coworking space, mostly QuickBooks setup and invoices. He was clear that he does not file tax returns, but he'd set up my books.",
+      "source_type": "note",
+      "created_at": "2026-07-01T17:00:00Z"
+    }
+  ],
+  "facts": [
+    {
+      "kind": "skill",
+      "value": "bookkeeping",
+      "source_note_ids": [
+        "n_6527d0a4"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "QuickBooks",
+      "source_note_ids": [
+        "n_6527d0a4"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "set up QuickBooks books",
+      "source_note_ids": [
+        "n_6527d0a4"
+      ]
+    }
+  ]
+}

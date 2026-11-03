@@ -1,0 +1,58 @@
+{
+  "id": "c_7126d4ac",
+  "name": "Dmitri Volkov",
+  "aliases": [
+    "Dima"
+  ],
+  "organization": "Long Beach Chess Club",
+  "role": "Chess coach",
+  "location": "Long Beach, CA",
+  "met_context": "Chess club",
+  "summary": "Chess coach who also knows competitive programming.",
+  "created_at": "2026-01-22T03:00:00Z",
+  "updated_at": "2026-05-14T04:00:00Z",
+  "notes": [
+    {
+      "id": "n_3d6ce7de",
+      "text": "dima (dmitri volkov) -> chess club thurs nights. coach, 2300 rating. would coach me for free if i bring coffee",
+      "source_type": "note",
+      "created_at": "2026-01-22T03:00:00Z"
+    },
+    {
+      "id": "n_5054ffff",
+      "text": "Dmitri also did competitive programming in college, ICPC regionals. Knows graph algorithms really well.",
+      "source_type": "note",
+      "created_at": "2026-05-14T04:00:00Z"
+    }
+  ],
+  "facts": [
+    {
+      "kind": "skill",
+      "value": "chess coaching",
+      "source_note_ids": [
+        "n_3d6ce7de"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "chess coaching",
+      "source_note_ids": [
+        "n_3d6ce7de"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "competitive programming",
+      "source_note_ids": [
+        "n_5054ffff"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "graph algorithms",
+      "source_note_ids": [
+        "n_5054ffff"
+      ]
+    }
+  ]
+}

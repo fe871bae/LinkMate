@@ -1,0 +1,43 @@
+{
+  "id": "c_8815d9ed",
+  "name": "Amara Okoye",
+  "aliases": [],
+  "organization": "Harbor Community Fund",
+  "role": "Grant writer",
+  "location": "Long Beach, CA",
+  "met_context": "Volunteer day",
+  "summary": "Grant writer who offered to read a grant application.",
+  "created_at": "2026-05-27T18:00:00Z",
+  "updated_at": "2026-05-27T18:00:00Z",
+  "notes": [
+    {
+      "id": "n_98feb017",
+      "text": "Amara Okoye writes grants for the Harbor Community Fund. Met at the volunteer day. She has won a lot of funding for nonprofits and said she'd read a draft of a grant application if we ever write one.",
+      "source_type": "note",
+      "created_at": "2026-05-27T18:00:00Z"
+    }
+  ],
+  "facts": [
+    {
+      "kind": "skill",
+      "value": "grant writing",
+      "source_note_ids": [
+        "n_98feb017"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "nonprofit fundraising",
+      "source_note_ids": [
+        "n_98feb017"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "read a grant application draft",
+      "source_note_ids": [
+        "n_98feb017"
+      ]
+    }
+  ]
+}

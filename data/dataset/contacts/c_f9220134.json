@@ -1,0 +1,50 @@
+{
+  "id": "c_f9220134",
+  "name": "Jonas Keller",
+  "aliases": [],
+  "organization": "Brightcell Energy",
+  "role": "Firmware engineer",
+  "location": "Long Beach, CA",
+  "met_context": "Embedded systems night",
+  "summary": "Firmware engineer who offered to debug STM32 firmware.",
+  "created_at": "2026-08-19T15:00:00Z",
+  "updated_at": "2026-08-19T15:00:00Z",
+  "notes": [
+    {
+      "id": "n_6ce8ec82",
+      "text": "Hi! Great meeting you at the embedded systems night. As promised, a bit about what I do. I'm Jonas Keller, firmware engineer at Brightcell Energy in Long Beach. Most of my week goes into battery management systems for small electric vehicles, which means a lot of time with safety reviews, supplier calls and test reports, so honestly the job is less glamorous than it sounds. We moved offices in spring, the new place is right next to the harbor and the coffee is finally decent. Outside of work I'm restoring an old Vespa with my brother, which is going slowly because neither of us owns the right tools. If you ever come by the harbor let me know, there is a good taco truck on Thursdays. Back to your project: you said your board keeps crashing. I've spent years on bare-metal C and FreeRTOS on STM32 chips, so I'm happy to debug your firmware with you over a video call, just send me the code and a description of when the resets happen. Best, Jonas",
+      "source_type": "email",
+      "created_at": "2026-08-19T15:00:00Z"
+    }
+  ],
+  "facts": [
+    {
+      "kind": "skill",
+      "value": "battery management systems",
+      "source_note_ids": [
+        "n_6ce8ec82"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "bare-metal C and FreeRTOS",
+      "source_note_ids": [
+        "n_6ce8ec82"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "STM32",
+      "source_note_ids": [
+        "n_6ce8ec82"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "debug firmware",
+      "source_note_ids": [
+        "n_6ce8ec82"
+      ]
+    }
+  ]
+}

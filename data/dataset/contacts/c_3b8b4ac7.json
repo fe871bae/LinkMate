@@ -1,0 +1,38 @@
+{
+  "id": "c_3b8b4ac7",
+  "name": "Gabriel Santos",
+  "aliases": [
+    "Gabo"
+  ],
+  "organization": "CSULB Language Center",
+  "role": "Spanish instructor",
+  "location": "Long Beach, CA",
+  "met_context": "Language exchange",
+  "summary": "Spanish instructor who runs conversation practice.",
+  "created_at": "2026-02-18T20:00:00Z",
+  "updated_at": "2026-02-18T20:00:00Z",
+  "notes": [
+    {
+      "id": "n_c18ea54b",
+      "text": "Gabo, teaches Spanish at the CSULB language center. Runs a conversation table every Wednesday and said I should just show up to practice speaking.",
+      "source_type": "note",
+      "created_at": "2026-02-18T20:00:00Z"
+    }
+  ],
+  "facts": [
+    {
+      "kind": "skill",
+      "value": "Spanish teaching",
+      "source_note_ids": [
+        "n_c18ea54b"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "Spanish conversation practice",
+      "source_note_ids": [
+        "n_c18ea54b"
+      ]
+    }
+  ]
+}

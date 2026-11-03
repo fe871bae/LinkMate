@@ -1,0 +1,43 @@
+{
+  "id": "c_805d92df",
+  "name": "Wendy Zhao",
+  "aliases": [],
+  "organization": "Long Beach Legal Aid",
+  "role": "Housing mediator",
+  "location": "Long Beach, CA",
+  "met_context": "Tenant workshop",
+  "summary": "Housing mediator who advises tenants on disputes.",
+  "created_at": "2026-08-05T20:00:00Z",
+  "updated_at": "2026-08-05T20:00:00Z",
+  "notes": [
+    {
+      "id": "n_41b1ed16",
+      "text": "Wendy Zhao, housing mediator at Long Beach Legal Aid. Ran the tenant workshop. Handles disputes between renters and landlords, including security deposits. Told us to call her office for free advice.",
+      "source_type": "note",
+      "created_at": "2026-08-05T20:00:00Z"
+    }
+  ],
+  "facts": [
+    {
+      "kind": "skill",
+      "value": "tenant rights",
+      "source_note_ids": [
+        "n_41b1ed16"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "housing mediation",
+      "source_note_ids": [
+        "n_41b1ed16"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "free tenant advice",
+      "source_note_ids": [
+        "n_41b1ed16"
+      ]
+    }
+  ]
+}

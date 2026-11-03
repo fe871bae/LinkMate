@@ -1,0 +1,36 @@
+{
+  "id": "c_b60923f5",
+  "name": "Hana Kovac",
+  "aliases": [],
+  "organization": "Granite Climbing Gym",
+  "role": "Route setter",
+  "location": "Signal Hill, CA",
+  "met_context": "Climbing gym",
+  "summary": "Route setter who can teach belaying.",
+  "created_at": "2026-06-03T02:00:00Z",
+  "updated_at": "2026-06-03T02:00:00Z",
+  "notes": [
+    {
+      "id": "n_8debc1e1",
+      "text": "Hana Kovac sets routes at Granite Climbing Gym. Told me she can show me how to belay properly and check me off for the top rope wall.",
+      "source_type": "note",
+      "created_at": "2026-06-03T02:00:00Z"
+    }
+  ],
+  "facts": [
+    {
+      "kind": "skill",
+      "value": "indoor climbing",
+      "source_note_ids": [
+        "n_8debc1e1"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "teach belaying",
+      "source_note_ids": [
+        "n_8debc1e1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "c_d63775fd",
+  "name": "Fatima Rahman",
+  "aliases": [],
+  "organization": "Bayview Clinic",
+  "role": "Registered dietitian",
+  "location": "Long Beach, CA",
+  "met_context": "Health fair on campus",
+  "summary": "Dietitian who offered to review a meal plan.",
+  "created_at": "2026-04-08T19:00:00Z",
+  "updated_at": "2026-04-08T19:00:00Z",
+  "notes": [
+    {
+      "id": "n_4b6fa3a6",
+      "text": "Fatima Rahman, registered dietitian at Bayview Clinic, had a booth at the campus health fair. Works a lot with student athletes and people with low energy or iron deficiency. Offered to look at my meal plan if I log a week of food.",
+      "source_type": "note",
+      "created_at": "2026-04-08T19:00:00Z"
+    }
+  ],
+  "facts": [
+    {
+      "kind": "skill",
+      "value": "nutrition counseling",
+      "source_note_ids": [
+        "n_4b6fa3a6"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "sports nutrition",
+      "source_note_ids": [
+        "n_4b6fa3a6"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "review a meal plan",
+      "source_note_ids": [
+        "n_4b6fa3a6"
+      ]
+    }
+  ]
+}

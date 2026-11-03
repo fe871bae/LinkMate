@@ -1,0 +1,43 @@
+{
+  "id": "c_450c47ee",
+  "name": "Ruth Feldman",
+  "aliases": [],
+  "organization": "Red Cross Long Beach",
+  "role": "Retired nurse, volunteer instructor",
+  "location": "Long Beach, CA",
+  "met_context": "Neighborhood meeting",
+  "summary": "Retired nurse who teaches first aid and CPR.",
+  "created_at": "2026-03-30T22:00:00Z",
+  "updated_at": "2026-03-30T22:00:00Z",
+  "notes": [
+    {
+      "id": "n_89c296e3",
+      "text": "Ruth Feldman, retired ER nurse. Teaches CPR and first aid classes for the Red Cross on weekends. Said she'd save me a spot in the next class.",
+      "source_type": "note",
+      "created_at": "2026-03-30T22:00:00Z"
+    }
+  ],
+  "facts": [
+    {
+      "kind": "skill",
+      "value": "emergency nursing",
+      "source_note_ids": [
+        "n_89c296e3"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "CPR and first aid instruction",
+      "source_note_ids": [
+        "n_89c296e3"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "spot in a CPR class",
+      "source_note_ids": [
+        "n_89c296e3"
+      ]
+    }
+  ]
+}
