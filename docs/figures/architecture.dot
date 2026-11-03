@@ -1,0 +1,27 @@
+digraph LinkMate {
+  rankdir=LR; nodesep=0.16; ranksep=0.22; fontname="Helvetica"; fontsize=12;
+  node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=12, color="#44546A", fillcolor="#F2F5F9", margin="0.06,0.04"];
+  edge [fontname="Helvetica", fontsize=10, color="#44546A", arrowsize=0.7];
+
+  subgraph cluster_a { label="Flow A: capture"; color="#2F6DB5"; fontcolor="#2F6DB5"; style="rounded";
+    note [label="Note or\nemail"];
+    extract [label="LLM extraction\nJSON schema", fillcolor="#DCE9F7"];
+    review [label="User review\nand confirm", fillcolor="#FFF2CC"];
+    merge [label="Merge with\nprovenance"];
+    note -> extract -> review -> merge;
+  }
+  subgraph cluster_b { label="Flow B: ask"; color="#2E8B57"; fontcolor="#2E8B57"; style="rounded";
+    need [label="Need"];
+    search [label="Dense search,\nscore threshold"];
+    answer [label="Grounded LLM\nanswer", fillcolor="#DCE9F7"];
+    valid [label="Validation of\ncontacts, sources"];
+    out [label="Contacts, reason,\nsources, label\nor no suitable contact", fillcolor="#FFF2CC"];
+    need -> search -> answer -> valid -> out;
+  }
+  store [label="JSON store\nsource of truth", shape=cylinder, fillcolor="#E8E8E8"];
+  chroma [label="Chroma index\nrebuildable", shape=cylinder, fillcolor="#E8E8E8"];
+  merge -> store;
+  store -> chroma [label="embed", constraint=false];
+  chroma -> search [constraint=false, color="#888888"];
+  store -> answer [constraint=false, color="#888888"];
+}
