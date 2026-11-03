@@ -39,7 +39,7 @@ DEFAULT_PORT = 8501
 STEPS = 6
 FIRST_START_DOWNLOAD = "about 1.6 GB"
 
-PACKAGE_SKIP_DIRS = {".venv", ".venv.nosync", "__pycache__", ".pytest_cache", "dist", ".git"}
+PACKAGE_SKIP_DIRS = {".venv", ".venv.nosync", "__pycache__", ".pytest_cache", "dist", ".git", ".git.nosync"}
 PACKAGE_SKIP_PATHS = {"data/contacts", "data/chroma.nosync", "data/logs"}
 
 # Ollama on localhost must not go through a proxy, also on company laptops.

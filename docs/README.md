@@ -21,3 +21,5 @@ tectonic progress_report.tex
 ```
 
 The reports read figures from `docs/figures/`. LaTeX build files are ignored by `.gitignore`. Charts are rebuilt with `.venv/bin/python docs/figures/make_charts.py` from the JSON files in `reports/evaluation/`.
+
+Pitch material is in `phase3/`: slides as PowerPoint and PDF in `phase3/slides/`, the script in `phase3/pitch_script.md`, and the demo and a draft video with a synthetic voice in `phase3/demo/`.

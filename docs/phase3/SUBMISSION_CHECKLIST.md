@@ -17,7 +17,7 @@ Requirements from `Term_project.pdf`. Items marked "team" cannot be finished wit
 
 | Requirement | Where | Status |
 |---|---|---|
-| Pitch video, 10 minutes maximum, with a real demo | `docs/phase3/pitch_script.md`, slides, demo recording | Team records and uploads |
+| Pitch video, 10 minutes maximum, with a real demo | `docs/phase3/pitch_script.md`, `docs/phase3/slides/LinkMate_Pitch_Slides.pptx`, demo recording | Team records and uploads |
 | Video accessible in a private browser window | YouTube link | Team |
 | Combined Final Report, max. 8 pages, with the video URL | `docs/phase3/final_report.pdf` | Done, team adds the URL and confirms contributions |
 | Video covers problem, users, solution, AI, demo, evidence, business, limits, roadmap | `docs/phase3/pitch_script.md` | Script done, video open |
