@@ -12,9 +12,9 @@ data/chroma.nosync/
 data/logs/
 *.log
 
-# Old material kept outside the repository
-_archive/
-.git.nosync/
+# Secrets, the project itself needs none
+.env
+.env.*
 
 # Build output
 dist/
@@ -28,6 +28,11 @@ dist/
 *.bbl
 *.blg
 *.out
+
+# Git data and duplicates from iCloud Drive
+.git.nosync/
+* 2
+* 2.*
 
 # OS and editor files
 .DS_Store
