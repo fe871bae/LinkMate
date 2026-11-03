@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv
+.venv.nosync/
+venv/
+
+# Runtime data, regenerated or private to the user
+data/contacts/
+data/chroma.nosync/
+data/logs/
+*.log
+
+# Old material kept outside the repository
+_archive/
+.git.nosync/
+
+# Build output
+dist/
+
+# LaTeX build files
+*.aux
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.toc
+*.bbl
+*.blg
+*.out
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
