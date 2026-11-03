@@ -1,0 +1,43 @@
+{
+  "id": "c_670d8b65",
+  "name": "Aisha Bello",
+  "aliases": [],
+  "organization": "CSULB Recreation Center",
+  "role": "Yoga instructor",
+  "location": "Long Beach, CA",
+  "met_context": "Sunday yoga class at the rec center",
+  "summary": "Yoga instructor and mobility coach who offered a free trial class.",
+  "created_at": "2026-03-05T17:00:00Z",
+  "updated_at": "2026-03-05T17:00:00Z",
+  "facts": [
+    {
+      "kind": "skill",
+      "value": "yoga instruction",
+      "source_note_ids": [
+        "n_363b04e5"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "mobility coaching",
+      "source_note_ids": [
+        "n_363b04e5"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "free trial yoga class",
+      "source_note_ids": [
+        "n_363b04e5"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "n_363b04e5",
+      "text": "Aisha Bello teaches the Sunday morning yoga class at the campus rec center. Also does mobility coaching for athletes. Offered a free trial class for anyone from our study group.",
+      "source_type": "note",
+      "created_at": "2026-03-05T17:00:00Z"
+    }
+  ]
+}

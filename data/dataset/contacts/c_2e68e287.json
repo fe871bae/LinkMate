@@ -1,0 +1,50 @@
+{
+  "id": "c_2e68e287",
+  "name": "Luca Romano",
+  "aliases": [],
+  "organization": "",
+  "role": "Musician",
+  "location": "Long Beach, CA",
+  "met_context": "Former roommate from a summer sublet",
+  "summary": "Guitarist with home-recording and audio engineering skills who offered to lend a USB microphone.",
+  "created_at": "2025-07-19T21:00:00Z",
+  "updated_at": "2025-07-19T21:00:00Z",
+  "facts": [
+    {
+      "kind": "skill",
+      "value": "guitar",
+      "source_note_ids": [
+        "n_55133911"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "audio engineering and mixing",
+      "source_note_ids": [
+        "n_55133911"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "lend USB microphone",
+      "source_note_ids": [
+        "n_55133911"
+      ]
+    },
+    {
+      "kind": "interest",
+      "value": "music",
+      "source_note_ids": [
+        "n_55133911"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "n_55133911",
+      "text": "Luca Romano, my old roommate from the summer sublet. Plays guitar in a band, records demos at home, knows a lot about audio engineering and mixing. Said I can borrow his good USB microphone for presentations/podcasts.",
+      "source_type": "note",
+      "created_at": "2025-07-19T21:00:00Z"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "c_184d0117",
+  "name": "Priya Raman",
+  "aliases": [],
+  "organization": "CSULB NLP Lab",
+  "role": "PhD student",
+  "location": "Long Beach, CA",
+  "met_context": "Graduate seminar talk on retrieval",
+  "summary": "PhD student in dense retrieval and embeddings who offered feedback on the LinkMate evaluation plan.",
+  "created_at": "2026-03-19T19:30:00Z",
+  "updated_at": "2026-10-14T16:15:00Z",
+  "facts": [
+    {
+      "kind": "skill",
+      "value": "dense retrieval",
+      "source_note_ids": [
+        "n_ee981cac"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "text embeddings",
+      "source_note_ids": [
+        "n_ee981cac"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "BM25 baselines",
+      "source_note_ids": [
+        "n_ee981cac"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "retrieval evaluation (recall@k, MRR)",
+      "source_note_ids": [
+        "n_c7186654"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "feedback on evaluation plan",
+      "source_note_ids": [
+        "n_c7186654"
+      ]
+    },
+    {
+      "kind": "interest",
+      "value": "hiking",
+      "source_note_ids": [
+        "n_c7186654"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "n_ee981cac",
+      "text": "Priya Raman, PhD student in the NLP lab (Dr. Huang's group). Works on dense retrieval and embeddings for scientific papers. Gave a talk at the grad seminar on why BM25 is still a strong baseline. Very sharp.",
+      "source_type": "note",
+      "created_at": "2026-03-19T19:30:00Z"
+    },
+    {
+      "id": "n_c7186654",
+      "text": "Ran into Priya at the library. She said she'd be happy to look at our evaluation plan for LinkMate - recall@k, MRR, how to build the test questions. Recommended to always compare against BM25. Also loves hiking, did the John Muir Trail last summer.",
+      "source_type": "note",
+      "created_at": "2026-10-14T16:15:00Z"
+    }
+  ]
+}

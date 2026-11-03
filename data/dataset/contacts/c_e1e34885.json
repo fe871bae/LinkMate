@@ -1,0 +1,43 @@
+{
+  "id": "c_e1e34885",
+  "name": "Emma Lindqvist",
+  "aliases": [],
+  "organization": "CSULB",
+  "role": "Exchange student",
+  "location": "Long Beach, CA",
+  "met_context": "Statistics class",
+  "summary": "Exchange student from Uppsala who does portrait photography and offered LinkedIn headshots.",
+  "created_at": "2026-02-15T23:20:00Z",
+  "updated_at": "2026-02-15T23:20:00Z",
+  "facts": [
+    {
+      "kind": "skill",
+      "value": "portrait photography",
+      "source_note_ids": [
+        "n_7dfa5a68"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "LinkedIn headshots",
+      "source_note_ids": [
+        "n_7dfa5a68"
+      ]
+    },
+    {
+      "kind": "interest",
+      "value": "photography",
+      "source_note_ids": [
+        "n_7dfa5a68"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "n_7dfa5a68",
+      "text": "Emma Lindqvist - exchange student from Uppsala, in my stats class. Does portrait photography on the side, has a proper camera + lighting. Offered to take headshots for my LinkedIn since mine is a cropped party photo lol.",
+      "source_type": "note",
+      "created_at": "2026-02-15T23:20:00Z"
+    }
+  ]
+}

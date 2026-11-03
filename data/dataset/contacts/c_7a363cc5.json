@@ -1,0 +1,36 @@
+{
+  "id": "c_7a363cc5",
+  "name": "Lisa Brandt",
+  "aliases": [],
+  "organization": "Kessler Sensortechnik",
+  "role": "HR business partner",
+  "location": "Stuttgart, Germany",
+  "met_context": "Exit interview at the end of the Kessler internship",
+  "summary": "HR business partner at Kessler who hires working students and interns for engineering and invited Felix to come back.",
+  "created_at": "2025-08-12T13:00:00Z",
+  "updated_at": "2025-08-12T13:00:00Z",
+  "facts": [
+    {
+      "kind": "skill",
+      "value": "engineering recruiting",
+      "source_note_ids": [
+        "n_bc044f87"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "referral for working student or intern roles at Kessler",
+      "source_note_ids": [
+        "n_bc044f87"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "n_bc044f87",
+      "text": "Lisa Brandt, HR business partner at Kessler Sensortechnik. Did my exit interview. Handles working-student and intern hiring for the engineering departments. Told me to reach out directly if I want to come back after my studies. Nice, very direct.",
+      "source_type": "note",
+      "created_at": "2025-08-12T13:00:00Z"
+    }
+  ]
+}

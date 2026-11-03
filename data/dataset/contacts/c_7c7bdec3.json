@@ -1,0 +1,63 @@
+{
+  "id": "c_7c7bdec3",
+  "name": "Tom Weber",
+  "aliases": [],
+  "organization": "CSULB Robotics Club",
+  "role": "Exchange student",
+  "location": "Long Beach, CA",
+  "met_context": "Robotics club",
+  "summary": "Exchange student from Aachen who builds drones and offered to 3D print parts for projects.",
+  "created_at": "2026-02-26T03:00:00Z",
+  "updated_at": "2026-04-09T20:30:00Z",
+  "facts": [
+    {
+      "kind": "skill",
+      "value": "drone building",
+      "source_note_ids": [
+        "n_ae499510"
+      ]
+    },
+    {
+      "kind": "interest",
+      "value": "FPV drone racing",
+      "source_note_ids": [
+        "n_ae499510"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "3D printing",
+      "source_note_ids": [
+        "n_369dad72"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "CAD with Fusion 360",
+      "source_note_ids": [
+        "n_369dad72"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "3D print parts",
+      "source_note_ids": [
+        "n_369dad72"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "n_ae499510",
+      "text": "Tom Weber, robotics club. Builds racing drones, flies FPV. Exchange student from Aachen, here for the full year.",
+      "source_type": "note",
+      "created_at": "2026-02-26T03:00:00Z"
+    },
+    {
+      "id": "n_369dad72",
+      "text": "Tom has a Prusa 3D printer in the robotics club room and offered to print parts for anyone's project if you bring the STL + pay for filament. Also good at CAD (Fusion 360).",
+      "source_type": "note",
+      "created_at": "2026-04-09T20:30:00Z"
+    }
+  ]
+}

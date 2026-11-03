@@ -1,0 +1,56 @@
+{
+  "id": "c_cebc5372",
+  "name": "Ben Adeyemi",
+  "aliases": [],
+  "organization": "Lumio",
+  "role": "Product manager",
+  "location": "Long Beach, CA",
+  "met_context": "Long Beach Tech Meetup, May 2026",
+  "summary": "Edtech product manager experienced in user interviews who offered a user feedback session for LinkMate.",
+  "created_at": "2026-05-14T04:20:00Z",
+  "updated_at": "2026-10-17T18:30:00Z",
+  "facts": [
+    {
+      "kind": "skill",
+      "value": "product management",
+      "source_note_ids": [
+        "n_3782e407"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "user interviews",
+      "source_note_ids": [
+        "n_3782e407"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "user feedback session for LinkMate",
+      "source_note_ids": [
+        "n_8bcd3fa9"
+      ]
+    },
+    {
+      "kind": "interest",
+      "value": "board games",
+      "source_note_ids": [
+        "n_8bcd3fa9"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "n_3782e407",
+      "text": "Ben Adeyemi, product manager at Lumio (edtech, learning apps). Also at the tech meetup. Talked about user interviews and how most teams build features nobody needs.",
+      "source_type": "note",
+      "created_at": "2026-05-14T04:20:00Z"
+    },
+    {
+      "id": "n_8bcd3fa9",
+      "text": "Ben offered to run a 30-min user feedback session for LinkMate with 3-4 people from his team. Needs a working prototype first. He's also into board games, invited me to a game night.",
+      "source_type": "note",
+      "created_at": "2026-10-17T18:30:00Z"
+    }
+  ]
+}

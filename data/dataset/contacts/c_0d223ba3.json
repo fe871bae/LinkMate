@@ -1,0 +1,56 @@
+{
+  "id": "c_0d223ba3",
+  "name": "Kevin Tran",
+  "aliases": [],
+  "organization": "Northbay Analytics",
+  "role": "University recruiter",
+  "location": "Irvine, CA",
+  "met_context": "CSULB career fair, September 2026",
+  "summary": "Recruiter hiring summer 2027 data science interns who offered to act as referral contact.",
+  "created_at": "2026-09-24T22:00:00Z",
+  "updated_at": "2026-10-02T15:12:00Z",
+  "facts": [
+    {
+      "kind": "skill",
+      "value": "technical recruiting",
+      "source_note_ids": [
+        "n_6e117f8b"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "data science internship summer 2027",
+      "source_note_ids": [
+        "n_6e117f8b"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "referral for internship application",
+      "source_note_ids": [
+        "n_37817b45"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "questions about the interview process",
+      "source_note_ids": [
+        "n_37817b45"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "n_6e117f8b",
+      "text": "Career fair: Kevin Tran, university recruiter at Northbay Analytics (data/analytics consulting, offices in Irvine + Seattle). They hire data science interns for summer 2027, applications open in November. Wants people who can do SQL + Python + communicate results. Gave me his card.",
+      "source_type": "note",
+      "created_at": "2026-09-24T22:00:00Z"
+    },
+    {
+      "id": "n_37817b45",
+      "text": "Subject: Northbay Analytics - Summer 2027 Data Science Internship\n\nHi Felix,\n\nGreat meeting you at the CSULB career fair. As promised, here is the link to our internship page; applications open November 1. Feel free to list me as your referral contact. If you have questions about the interview process (one SQL case, one ML case) just reply to this email.\n\nBest regards,\nKevin Tran\nUniversity Recruiting, Northbay Analytics",
+      "source_type": "email",
+      "created_at": "2026-10-02T15:12:00Z"
+    }
+  ]
+}

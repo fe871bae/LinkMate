@@ -1,0 +1,77 @@
+{
+  "id": "c_0a57f2ed",
+  "name": "Lena Hoffmann",
+  "aliases": [],
+  "organization": "Kessler Sensortechnik",
+  "role": "Team lead, automotive IMU testing",
+  "location": "Stuttgart, Germany",
+  "met_context": "Internship at Kessler Sensortechnik, summer 2025",
+  "summary": "Test engineer turned team lead who calibrates IMU sensors and offered help with sensor calibration and sensor fusion.",
+  "created_at": "2025-08-14T17:20:00Z",
+  "updated_at": "2026-02-03T09:05:00Z",
+  "facts": [
+    {
+      "kind": "skill",
+      "value": "IMU sensor calibration",
+      "source_note_ids": [
+        "n_97ba8f01"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "temperature compensation",
+      "source_note_ids": [
+        "n_97ba8f01"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "advice on sensor calibration",
+      "source_note_ids": [
+        "n_97ba8f01"
+      ]
+    },
+    {
+      "kind": "interest",
+      "value": "bouldering",
+      "source_note_ids": [
+        "n_97ba8f01"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "sensor fusion",
+      "source_note_ids": [
+        "n_20f05c70"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "Kalman filtering",
+      "source_note_ids": [
+        "n_20f05c70"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "call about sensor fusion",
+      "source_note_ids": [
+        "n_20f05c70"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "n_97ba8f01",
+      "text": "Met Lena Hoffmann on my last week of the internship at Kessler Sensortechnik in Stuttgart. She's a test engineer in the inertial sensors group and spends most of her day calibrating IMU sensors (accelerometer + gyro bias, temperature compensation). Super patient explaining things. Said if I ever need help with sensor calibration for a uni project I should just message her. Into bouldering, goes to a gym in Bad Cannstatt every Thursday.",
+      "source_type": "note",
+      "created_at": "2025-08-14T17:20:00Z"
+    },
+    {
+      "id": "n_20f05c70",
+      "text": "Subject: Re: greetings from California\n\nHi Felix,\n\nnice to hear from you! Yes, I'm still at Kessler, now leading a small team for the new automotive IMU line. If your project needs sensor fusion (Kalman filter stuff) I'm happy to do a call, just not in March, we have an audit. By the way, Lisa from HR asked about you, they are opening working student positions in summer.\n\nBest,\nLena",
+      "source_type": "email",
+      "created_at": "2026-02-03T09:05:00Z"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "c_5c338790",
+  "name": "Jake Morrison",
+  "aliases": [],
+  "organization": "Seal Beach Surf School",
+  "role": "Surf instructor and owner",
+  "location": "Seal Beach, CA",
+  "met_context": "At the Seal Beach pier",
+  "summary": "Surf instructor who rents boards and offers student discounts on beginner lessons.",
+  "created_at": "2026-06-02T23:40:00Z",
+  "updated_at": "2026-06-02T23:40:00Z",
+  "facts": [
+    {
+      "kind": "skill",
+      "value": "surf instruction",
+      "source_note_ids": [
+        "n_cdf4e5ca"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "discounted beginner surf lessons",
+      "source_note_ids": [
+        "n_cdf4e5ca"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "board and wetsuit rental",
+      "source_note_ids": [
+        "n_cdf4e5ca"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "n_cdf4e5ca",
+      "text": "Jake Morrison runs a surf school at Seal Beach pier. Rents boards and wetsuits. Gave me his number, said beginner lessons are 20% off for students in the summer. Chill guy, ex-lifeguard.",
+      "source_type": "note",
+      "created_at": "2026-06-02T23:40:00Z"
+    }
+  ]
+}

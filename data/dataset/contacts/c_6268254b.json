@@ -1,0 +1,43 @@
+{
+  "id": "c_6268254b",
+  "name": "Grace Liu",
+  "aliases": [],
+  "organization": "Sugarline Bakery",
+  "role": "Pastry chef",
+  "location": "Long Beach, CA",
+  "met_context": "Older sister of roommate Andy",
+  "summary": "Pastry chef who makes custom cakes and small catering and offered to bake Felix's birthday cake.",
+  "created_at": "2026-08-05T02:00:00Z",
+  "updated_at": "2026-08-05T02:00:00Z",
+  "facts": [
+    {
+      "kind": "skill",
+      "value": "custom cakes",
+      "source_note_ids": [
+        "n_a4748791"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "catering",
+      "source_note_ids": [
+        "n_a4748791"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "bake a birthday cake",
+      "source_note_ids": [
+        "n_a4748791"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "n_a4748791",
+      "text": "Grace Liu - my roommate Andy's older sister, pastry chef at Sugarline Bakery on Retro Row. Does custom cakes and small catering. Offered to bake the cake for my birthday party in November if I tell her two weeks before.",
+      "source_type": "note",
+      "created_at": "2026-08-05T02:00:00Z"
+    }
+  ]
+}

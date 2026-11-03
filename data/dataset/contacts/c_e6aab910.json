@@ -1,0 +1,63 @@
+{
+  "id": "c_e6aab910",
+  "name": "Daniel Kim",
+  "aliases": [],
+  "organization": "Tidewell",
+  "role": "Founder and CEO",
+  "location": "Long Beach, CA",
+  "met_context": "Judge at the Long Beach innovation hub hackathon",
+  "summary": "Startup founder (water quality sensors) who shares his pitch deck and is hiring a part-time ML intern.",
+  "created_at": "2026-04-27T01:30:00Z",
+  "updated_at": "2026-09-11T18:45:00Z",
+  "facts": [
+    {
+      "kind": "skill",
+      "value": "startup fundraising",
+      "source_note_ids": [
+        "n_3ac80623"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "pitch decks",
+      "source_note_ids": [
+        "n_3ac80623"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "share his pitch deck",
+      "source_note_ids": [
+        "n_3ac80623"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "sensor time series",
+      "source_note_ids": [
+        "n_85553e21"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "part-time ML internship at Tidewell",
+      "source_note_ids": [
+        "n_85553e21"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "n_3ac80623",
+      "text": "Hackathon at the Long Beach innovation hub - Daniel Kim was a judge. Founder/CEO of Tidewell, a startup with low-cost water quality sensors for fish farms. Raised a pre-seed round last year. Very open about fundraising, said he'd share his pitch deck with anyone building a startup.",
+      "source_type": "note",
+      "created_at": "2026-04-27T01:30:00Z"
+    },
+    {
+      "id": "n_85553e21",
+      "text": "Coffee with Daniel Kim. Tidewell is looking for a part-time ML intern for anomaly detection on sensor time series. He asked if I'd be interested or know someone. Paid, remote possible.",
+      "source_type": "note",
+      "created_at": "2026-09-11T18:45:00Z"
+    }
+  ]
+}

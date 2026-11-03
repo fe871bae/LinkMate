@@ -1,0 +1,50 @@
+{
+  "id": "c_1911865c",
+  "name": "Omar Siddiqui",
+  "aliases": [],
+  "organization": "CSULB Student Investment Club",
+  "role": "Finance student, club president",
+  "location": "Long Beach, CA",
+  "met_context": "Student investment club",
+  "summary": "Finance student skilled in Excel modeling who offered to explain startup financial models.",
+  "created_at": "2026-03-27T22:00:00Z",
+  "updated_at": "2026-03-27T22:00:00Z",
+  "facts": [
+    {
+      "kind": "skill",
+      "value": "financial modeling in Excel",
+      "source_note_ids": [
+        "n_1c95f7ae"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "DCF valuation",
+      "source_note_ids": [
+        "n_1c95f7ae"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "explain startup financial modeling",
+      "source_note_ids": [
+        "n_1c95f7ae"
+      ]
+    },
+    {
+      "kind": "interest",
+      "value": "investing",
+      "source_note_ids": [
+        "n_1c95f7ae"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "n_1c95f7ae",
+      "text": "Omar Siddiqui, finance major, runs the student investment club. Excel modeling, DCF valuations. Offered to explain how to build a simple financial model for a startup idea.",
+      "source_type": "note",
+      "created_at": "2026-03-27T22:00:00Z"
+    }
+  ]
+}

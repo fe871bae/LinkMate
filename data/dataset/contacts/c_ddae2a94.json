@@ -1,0 +1,50 @@
+{
+  "id": "c_ddae2a94",
+  "name": "Yuki Tanaka",
+  "aliases": [],
+  "organization": "Moonbeam Games",
+  "role": "Gameplay programmer",
+  "location": "Pasadena, CA",
+  "met_context": "Introduced by Marcus Bell",
+  "summary": "Indie game programmer (Unity, shaders) experimenting with LLM-driven NPC dialogue.",
+  "created_at": "2026-08-20T03:15:00Z",
+  "updated_at": "2026-08-20T03:15:00Z",
+  "facts": [
+    {
+      "kind": "skill",
+      "value": "Unity",
+      "source_note_ids": [
+        "n_b7f29790"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "C#",
+      "source_note_ids": [
+        "n_b7f29790"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "shader programming",
+      "source_note_ids": [
+        "n_b7f29790"
+      ]
+    },
+    {
+      "kind": "interest",
+      "value": "LLM-driven NPC dialogue",
+      "source_note_ids": [
+        "n_b7f29790"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "n_b7f29790",
+      "text": "Yuki Tanaka, gameplay programmer at a small indie studio (Moonbeam Games) in Pasadena. Unity, C#, shader programming. Experimenting with LLM-driven NPC dialogue. Met through Marcus.",
+      "source_type": "note",
+      "created_at": "2026-08-20T03:15:00Z"
+    }
+  ]
+}

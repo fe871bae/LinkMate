@@ -1,0 +1,60 @@
+{
+  "id": "c_1f7d75af",
+  "name": "Samuel Okafor",
+  "aliases": [
+    "Prof. Okafor",
+    "Dr. Okafor"
+  ],
+  "organization": "CSULB Computer Science Department",
+  "role": "Professor",
+  "location": "Long Beach, CA",
+  "met_context": "Machine learning class, spring 2026",
+  "summary": "ML professor researching fairness in recommender systems; writes recommendation letters for strong students.",
+  "created_at": "2026-01-22T21:00:00Z",
+  "updated_at": "2026-01-22T21:00:00Z",
+  "facts": [
+    {
+      "kind": "skill",
+      "value": "machine learning",
+      "source_note_ids": [
+        "n_b6b8c061"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "fairness in recommender systems",
+      "source_note_ids": [
+        "n_b6b8c061"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "recommendation letters",
+      "source_note_ids": [
+        "n_b6b8c061"
+      ]
+    },
+    {
+      "kind": "interest",
+      "value": "jazz",
+      "source_note_ids": [
+        "n_b6b8c061"
+      ]
+    },
+    {
+      "kind": "interest",
+      "value": "saxophone",
+      "source_note_ids": [
+        "n_b6b8c061"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "n_b6b8c061",
+      "text": "Prof. Samuel Okafor - teaching my machine learning class this spring. Office hours Wed 2-4. Research on fairness in recommender systems. Said he writes recommendation letters for students who got an A and did a project with him. Huge jazz fan, plays saxophone in a faculty band.",
+      "source_type": "note",
+      "created_at": "2026-01-22T21:00:00Z"
+    }
+  ]
+}

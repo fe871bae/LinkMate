@@ -1,0 +1,43 @@
+{
+  "id": "c_ac10089d",
+  "name": "Daniel Schulz",
+  "aliases": [],
+  "organization": "Steuerberatung Schulz",
+  "role": "Tax advisor (Steuerberater)",
+  "location": "Freiburg, Germany",
+  "met_context": "Old friend of Felix's parents",
+  "summary": "German tax advisor and family friend who offered to help with Felix's German tax return.",
+  "created_at": "2025-12-28T19:00:00Z",
+  "updated_at": "2025-12-28T19:00:00Z",
+  "facts": [
+    {
+      "kind": "skill",
+      "value": "German tax law",
+      "source_note_ids": [
+        "n_2ce04926"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "tax returns",
+      "source_note_ids": [
+        "n_2ce04926"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "help with German tax return",
+      "source_note_ids": [
+        "n_2ce04926"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "n_2ce04926",
+      "text": "Daniel Schulz - old friend of my parents, Steuerberater (tax advisor) with his own small office in Freiburg. Does my parents' taxes. Said he can help me with my German tax return for the internship year, especially getting the refund for the months I worked. Call him in the evening, he hates email.",
+      "source_type": "note",
+      "created_at": "2025-12-28T19:00:00Z"
+    }
+  ]
+}

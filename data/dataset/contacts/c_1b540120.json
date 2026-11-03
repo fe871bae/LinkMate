@@ -1,0 +1,36 @@
+{
+  "id": "c_1b540120",
+  "name": "Anna Schmidt",
+  "aliases": [],
+  "organization": "",
+  "role": "Retired chemistry teacher",
+  "location": "Freiburg, Germany",
+  "met_context": "Former high school teacher, friend of Felix's mother",
+  "summary": "Retired teacher who offered to proofread Felix's German cover letters.",
+  "created_at": "2025-10-03T18:00:00Z",
+  "updated_at": "2025-10-03T18:00:00Z",
+  "facts": [
+    {
+      "kind": "skill",
+      "value": "German grammar and proofreading",
+      "source_note_ids": [
+        "n_f79b7a49"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "proofread German cover letters",
+      "source_note_ids": [
+        "n_f79b7a49"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "n_f79b7a49",
+      "text": "Anna Schmidt - my former chemistry teacher, now friends with my mom. Retired since summer. Offered to proofread my German cover letters, she was strict about grammar back then too.",
+      "source_type": "note",
+      "created_at": "2025-10-03T18:00:00Z"
+    }
+  ]
+}

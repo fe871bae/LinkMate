@@ -1,0 +1,50 @@
+{
+  "id": "c_a878396a",
+  "name": "Sarah Whitfield",
+  "aliases": [],
+  "organization": "CSULB Career Development Center",
+  "role": "Career advisor",
+  "location": "Long Beach, CA",
+  "met_context": "Appointment at the Career Development Center",
+  "summary": "Career advisor who does resume reviews and mock interviews for engineering students.",
+  "created_at": "2026-09-15T17:45:00Z",
+  "updated_at": "2026-09-15T17:45:00Z",
+  "facts": [
+    {
+      "kind": "skill",
+      "value": "resume writing",
+      "source_note_ids": [
+        "n_8c65f873"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "interview coaching",
+      "source_note_ids": [
+        "n_8c65f873"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "resume review",
+      "source_note_ids": [
+        "n_8c65f873"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "mock interviews",
+      "source_note_ids": [
+        "n_8c65f873"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "n_8c65f873",
+      "text": "Sarah Whitfield, career advisor at the CSULB Career Development Center. Does resume reviews and mock interviews for engineering students. Booked a slot for next week. She said my resume is too long (2 pages) and to quantify results.",
+      "source_type": "note",
+      "created_at": "2026-09-15T17:45:00Z"
+    }
+  ]
+}

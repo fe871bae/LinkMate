@@ -1,0 +1,43 @@
+{
+  "id": "c_fb1a770a",
+  "name": "Felipe Costa",
+  "aliases": [],
+  "organization": "Costa Auto Repair",
+  "role": "Car mechanic",
+  "location": "Long Beach, CA",
+  "met_context": "Brake repair at his uncle's shop",
+  "summary": "Mechanic who repaired Felix's brakes and offered to inspect used cars before purchase.",
+  "created_at": "2026-06-25T00:30:00Z",
+  "updated_at": "2026-06-25T00:30:00Z",
+  "facts": [
+    {
+      "kind": "skill",
+      "value": "car repair",
+      "source_note_ids": [
+        "n_e3624584"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "brakes",
+      "source_note_ids": [
+        "n_e3624584"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "inspect used cars before purchase",
+      "source_note_ids": [
+        "n_e3624584"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "n_e3624584",
+      "text": "Felipe Costa, mechanic at Costa Auto Repair on Anaheim St (his uncle's shop). Fixed my brakes for a fair price. Said he'll check any used car before I buy one, for free if I bring coffee.",
+      "source_type": "note",
+      "created_at": "2026-06-25T00:30:00Z"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "c_1efb212f",
+  "name": "Ahmed Haddad",
+  "aliases": [],
+  "organization": "CSULB CTF Team",
+  "role": "CS student, CTF team captain",
+  "location": "Long Beach, CA",
+  "met_context": "CTF team info session",
+  "summary": "Security student (pentesting, LLM security) who offered to red-team LinkMate with malicious notes.",
+  "created_at": "2026-03-12T01:10:00Z",
+  "updated_at": "2026-10-10T20:00:00Z",
+  "facts": [
+    {
+      "kind": "skill",
+      "value": "penetration testing",
+      "source_note_ids": [
+        "n_36c7009f"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "web security",
+      "source_note_ids": [
+        "n_36c7009f"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "reverse engineering",
+      "source_note_ids": [
+        "n_36c7009f"
+      ]
+    },
+    {
+      "kind": "interest",
+      "value": "CTF competitions",
+      "source_note_ids": [
+        "n_36c7009f"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "LLM security / prompt injection",
+      "source_note_ids": [
+        "n_5c6ec399"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "red-team LinkMate before the demo",
+      "source_note_ids": [
+        "n_5c6ec399"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "n_36c7009f",
+      "text": "Ahmed Haddad, captain of the campus CTF team. Pentesting, web security, reverse engineering. Recruiting new members.",
+      "source_type": "note",
+      "created_at": "2026-03-12T01:10:00Z"
+    },
+    {
+      "id": "n_5c6ec399",
+      "text": "Talked with Ahmed about LLM security. He knows a lot about prompt injection and jailbreaks, offered to try to break LinkMate with malicious notes before our demo. Also recommended the OWASP Top 10 for LLM apps.",
+      "source_type": "note",
+      "created_at": "2026-10-10T20:00:00Z"
+    }
+  ]
+}

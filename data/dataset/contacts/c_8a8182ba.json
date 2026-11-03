@@ -1,0 +1,56 @@
+{
+  "id": "c_8a8182ba",
+  "name": "Mei Chen",
+  "aliases": [],
+  "organization": "Bayline Terminals",
+  "role": "Data analyst",
+  "location": "Long Beach, CA",
+  "met_context": "Women in data event (with roommate)",
+  "summary": "Data analyst who builds Tableau dashboards and offered to help design charts for evaluation results.",
+  "created_at": "2025-11-06T03:30:00Z",
+  "updated_at": "2026-06-18T16:20:00Z",
+  "facts": [
+    {
+      "kind": "skill",
+      "value": "Tableau dashboards",
+      "source_note_ids": [
+        "n_9bd796e2"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "data visualization",
+      "source_note_ids": [
+        "n_9bd796e2"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "SQL",
+      "source_note_ids": [
+        "n_90dbb4bf"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "help designing charts and dashboards",
+      "source_note_ids": [
+        "n_90dbb4bf"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "n_9bd796e2",
+      "text": "Mei Chen, data analyst at Bayline Terminals (container terminal at the port). Builds Tableau dashboards for vessel turnaround times. Met at a women in data event that my roommate took me to.",
+      "source_type": "note",
+      "created_at": "2025-11-06T03:30:00Z"
+    },
+    {
+      "id": "n_90dbb4bf",
+      "text": "Mei sent me her dashboard style guide. She offered to help make our evaluation results look good - charts, dashboard layout. Strong in SQL too.",
+      "source_type": "note",
+      "created_at": "2026-06-18T16:20:00Z"
+    }
+  ]
+}

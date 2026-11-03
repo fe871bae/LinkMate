@@ -1,0 +1,50 @@
+{
+  "id": "c_55b744d4",
+  "name": "Chris Douglas",
+  "aliases": [],
+  "organization": "Sierra Trails Club",
+  "role": "Hike organizer",
+  "location": "Long Beach, CA",
+  "met_context": "Weekend hike with the Sierra Trails Club",
+  "summary": "Hiking club organizer who knows Sierra Nevada trails and lends camping gear to members.",
+  "created_at": "2026-04-18T15:00:00Z",
+  "updated_at": "2026-04-18T15:00:00Z",
+  "facts": [
+    {
+      "kind": "skill",
+      "value": "Sierra Nevada trails",
+      "source_note_ids": [
+        "n_f5fdcb69"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "backcountry camping",
+      "source_note_ids": [
+        "n_f5fdcb69"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "lend camping gear",
+      "source_note_ids": [
+        "n_f5fdcb69"
+      ]
+    },
+    {
+      "kind": "interest",
+      "value": "hiking",
+      "source_note_ids": [
+        "n_f5fdcb69"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "n_f5fdcb69",
+      "text": "Chris Douglas organizes the weekend hikes for the Sierra Trails Club. Knows basically every trail between Mammoth and Yosemite. Has extra camping gear (tent, sleeping pads, bear canister) and lends it to members.",
+      "source_type": "note",
+      "created_at": "2026-04-18T15:00:00Z"
+    }
+  ]
+}

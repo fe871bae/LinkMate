@@ -1,0 +1,72 @@
+{
+  "id": "c_b9993e5b",
+  "name": "Patrick Sullivan",
+  "aliases": [
+    "Pat"
+  ],
+  "organization": "Long Beach Makerspace",
+  "role": "Retired electrical engineer, volunteer",
+  "location": "Long Beach, CA",
+  "met_context": "Saturday open shop at the makerspace",
+  "summary": "Retired electrical engineer who teaches soldering and offered to review PCB layouts.",
+  "created_at": "2026-01-16T23:00:00Z",
+  "updated_at": "2026-04-04T22:30:00Z",
+  "facts": [
+    {
+      "kind": "skill",
+      "value": "power electronics",
+      "source_note_ids": [
+        "n_c995bf55"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "soldering",
+      "source_note_ids": [
+        "n_c1c0330c"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "PCB design",
+      "source_note_ids": [
+        "n_c1c0330c"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "soldering lessons",
+      "source_note_ids": [
+        "n_c1c0330c"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "review PCB layout",
+      "source_note_ids": [
+        "n_c1c0330c"
+      ]
+    },
+    {
+      "kind": "interest",
+      "value": "vintage radios",
+      "source_note_ids": [
+        "n_c1c0330c"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "n_c995bf55",
+      "text": "Pat Sullivan (Patrick), retired electrical engineer, volunteers at the Long Beach makerspace on Saturdays. 40 years in power electronics.",
+      "source_type": "note",
+      "created_at": "2026-01-16T23:00:00Z"
+    },
+    {
+      "id": "n_c1c0330c",
+      "text": "Pat helped me debug my Arduino circuit at the makerspace. Offered to teach me soldering properly and to review a PCB layout if I design one in KiCad. Collects old radios.",
+      "source_type": "note",
+      "created_at": "2026-04-04T22:30:00Z"
+    }
+  ]
+}

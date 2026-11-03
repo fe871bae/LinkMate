@@ -1,0 +1,63 @@
+{
+  "id": "c_5cec61e3",
+  "name": "Marcus Bell",
+  "aliases": [],
+  "organization": "CSULB",
+  "role": "CS student",
+  "location": "Long Beach, CA",
+  "met_context": "CECS 451 lecture section",
+  "summary": "Classmate with strong PyTorch and local-LLM experience who offered to review the LinkMate code.",
+  "created_at": "2026-09-02T20:10:00Z",
+  "updated_at": "2026-10-08T22:45:00Z",
+  "facts": [
+    {
+      "kind": "skill",
+      "value": "PyTorch",
+      "source_note_ids": [
+        "n_0b22024d"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "LLM fine-tuning with LoRA",
+      "source_note_ids": [
+        "n_0b22024d"
+      ]
+    },
+    {
+      "kind": "interest",
+      "value": "basketball",
+      "source_note_ids": [
+        "n_0b22024d"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "running local LLMs with Ollama",
+      "source_note_ids": [
+        "n_f824f18e"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "code review",
+      "source_note_ids": [
+        "n_f824f18e"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "n_0b22024d",
+      "text": "Marcus Bell - in my CECS 451 section. Sits in the back, knows PyTorch really well, has fine-tuned a couple of small LLMs with LoRA on his own GPU. Plays pickup basketball at the rec center on Tuesdays.",
+      "source_type": "note",
+      "created_at": "2026-09-02T20:10:00Z"
+    },
+    {
+      "id": "n_f824f18e",
+      "text": "marcus offered to review our code before the phase 2 deadline, esp. the prompt/validation part. he also mentioned he got ollama running with a 12B model on his 3090 without problems -> could ask him about local model performance",
+      "source_type": "note",
+      "created_at": "2026-10-08T22:45:00Z"
+    }
+  ]
+}

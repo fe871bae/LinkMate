@@ -1,0 +1,50 @@
+{
+  "id": "c_bfe7ce03",
+  "name": "Leon Fischer",
+  "aliases": [],
+  "organization": "TU Munich",
+  "role": "Master's student, robotics",
+  "location": "Munich, Germany",
+  "met_context": "Bachelor's studies together",
+  "summary": "Robotics master's student at TU Munich (visual SLAM) who offered advice on applying there.",
+  "created_at": "2025-06-08T19:30:00Z",
+  "updated_at": "2025-06-08T19:30:00Z",
+  "facts": [
+    {
+      "kind": "skill",
+      "value": "visual SLAM",
+      "source_note_ids": [
+        "n_bc6f38ac"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "robotics",
+      "source_note_ids": [
+        "n_bc6f38ac"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "advice on applying to the TU Munich robotics master's",
+      "source_note_ids": [
+        "n_bc6f38ac"
+      ]
+    },
+    {
+      "kind": "interest",
+      "value": "chess",
+      "source_note_ids": [
+        "n_bc6f38ac"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "n_bc6f38ac",
+      "text": "Leon Fischer, studied with me in the bachelor's, now doing his master's in robotics at TU Munich. Thesis on visual SLAM for warehouse robots. Offered to tell me about the application process and which chairs/professors are good. Plays chess online every night.",
+      "source_type": "note",
+      "created_at": "2025-06-08T19:30:00Z"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "c_ec7df549",
+  "name": "Hannah Vogel",
+  "aliases": [],
+  "organization": "Heidelberg University",
+  "role": "Medical student",
+  "location": "Heidelberg, Germany",
+  "met_context": "Football club in Freiburg",
+  "summary": "Medical student in an orthopedics rotation and marathon runner who answers sports injury questions.",
+  "created_at": "2025-09-02T20:00:00Z",
+  "updated_at": "2025-09-02T20:00:00Z",
+  "facts": [
+    {
+      "kind": "skill",
+      "value": "orthopedics (medical student)",
+      "source_note_ids": [
+        "n_cbde1b3a"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "informal advice on sports injuries",
+      "source_note_ids": [
+        "n_cbde1b3a"
+      ]
+    },
+    {
+      "kind": "interest",
+      "value": "marathon running",
+      "source_note_ids": [
+        "n_cbde1b3a"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "n_cbde1b3a",
+      "text": "Hannah Vogel, used to play in my football club in Freiburg, now 5th year medical student in Heidelberg, rotation in orthopedics right now. Runs marathons, did Berlin in 3:28. Said I can always ask her about sports injuries but she's not a doctor yet, so take it with a grain of salt.",
+      "source_type": "note",
+      "created_at": "2025-09-02T20:00:00Z"
+    }
+  ]
+}

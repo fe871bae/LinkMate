@@ -1,0 +1,43 @@
+{
+  "id": "c_3c5733bd",
+  "name": "Zoe Harper",
+  "aliases": [],
+  "organization": "Long Beach Tech Meetup",
+  "role": "Organizer",
+  "location": "Long Beach, CA",
+  "met_context": "Long Beach Tech Meetup, May 2026",
+  "summary": "Meetup organizer looking for student speakers for AI lightning talks.",
+  "created_at": "2026-05-14T04:40:00Z",
+  "updated_at": "2026-05-14T04:40:00Z",
+  "facts": [
+    {
+      "kind": "skill",
+      "value": "event organizing",
+      "source_note_ids": [
+        "n_b5f17b1b"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "speaking slot at the meetup",
+      "source_note_ids": [
+        "n_b5f17b1b"
+      ]
+    },
+    {
+      "kind": "interest",
+      "value": "AI ethics",
+      "source_note_ids": [
+        "n_b5f17b1b"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "n_b5f17b1b",
+      "text": "Zoe Harper organizes the Long Beach Tech Meetup (monthly, ~80 people). Looking for student speakers for 10-minute lightning talks, she said AI projects are very welcome. Interested in AI ethics.",
+      "source_type": "note",
+      "created_at": "2026-05-14T04:40:00Z"
+    }
+  ]
+}

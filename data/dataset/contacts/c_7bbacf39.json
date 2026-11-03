@@ -1,0 +1,43 @@
+{
+  "id": "c_7bbacf39",
+  "name": "Olivia Park",
+  "aliases": [],
+  "organization": "Park & Delaney",
+  "role": "Attorney (contracts and IP)",
+  "location": "Long Beach, CA",
+  "met_context": "Introduced by Ben Adeyemi",
+  "summary": "Startup and small-business attorney who offered to review a freelance contract.",
+  "created_at": "2026-07-09T22:00:00Z",
+  "updated_at": "2026-07-09T22:00:00Z",
+  "facts": [
+    {
+      "kind": "skill",
+      "value": "contract law",
+      "source_note_ids": [
+        "n_9cff11cd"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "intellectual property",
+      "source_note_ids": [
+        "n_9cff11cd"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "review freelance contract",
+      "source_note_ids": [
+        "n_9cff11cd"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "n_9cff11cd",
+      "text": "Olivia Park, attorney at Park & Delaney in Downtown LB, focuses on contracts and IP for small businesses and startups. Friend of Ben. She offered to look over my freelance contract for the web project - said contracts for freelancers often have bad IP clauses.",
+      "source_type": "note",
+      "created_at": "2026-07-09T22:00:00Z"
+    }
+  ]
+}

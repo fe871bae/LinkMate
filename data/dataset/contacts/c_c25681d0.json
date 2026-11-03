@@ -1,0 +1,70 @@
+{
+  "id": "c_c25681d0",
+  "name": "Ryan O'Connor",
+  "aliases": [],
+  "organization": "Coastline Logistics",
+  "role": "Cloud engineer",
+  "location": "Long Beach, CA",
+  "met_context": "Long Beach Tech Meetup, May 2026",
+  "summary": "Cloud engineer (AWS, Kubernetes) who offered to help containerize and deploy the app.",
+  "created_at": "2026-05-14T04:00:00Z",
+  "updated_at": "2026-10-20T21:10:00Z",
+  "facts": [
+    {
+      "kind": "skill",
+      "value": "AWS",
+      "source_note_ids": [
+        "n_a38b6e97"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "Kubernetes",
+      "source_note_ids": [
+        "n_a38b6e97"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "Terraform",
+      "source_note_ids": [
+        "n_a38b6e97"
+      ]
+    },
+    {
+      "kind": "interest",
+      "value": "sailing",
+      "source_note_ids": [
+        "n_a38b6e97"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "Docker",
+      "source_note_ids": [
+        "n_6efc8141"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "help with Docker deployment",
+      "source_note_ids": [
+        "n_6efc8141"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "n_a38b6e97",
+      "text": "Ryan O'Connor - cloud engineer at Coastline Logistics, met him at the Long Beach Tech Meetup. Works with AWS, Kubernetes, Terraform all day. Sails on weekends in Alamitos Bay.",
+      "source_type": "note",
+      "created_at": "2026-05-14T04:00:00Z"
+    },
+    {
+      "id": "n_6efc8141",
+      "text": "Messaged Ryan about hosting. He said he can help us containerize the app with Docker and walk us through deploying to a small VM, 1 hour call. Warned that running an LLM on a cheap cloud VM will be slow.",
+      "source_type": "note",
+      "created_at": "2026-10-20T21:10:00Z"
+    }
+  ]
+}

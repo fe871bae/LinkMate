@@ -1,0 +1,50 @@
+{
+  "id": "c_4adbd276",
+  "name": "Noah Becker",
+  "aliases": [],
+  "organization": "Mainstadt Bank",
+  "role": "Credit risk analyst",
+  "location": "Frankfurt, Germany",
+  "met_context": "Friend from Freiburg",
+  "summary": "Credit risk modeler at a Frankfurt bank who offered advice on data science careers in German finance.",
+  "created_at": "2025-12-30T20:30:00Z",
+  "updated_at": "2025-12-30T20:30:00Z",
+  "facts": [
+    {
+      "kind": "skill",
+      "value": "credit risk modeling",
+      "source_note_ids": [
+        "n_360099a4"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "Python",
+      "source_note_ids": [
+        "n_360099a4"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "SAS",
+      "source_note_ids": [
+        "n_360099a4"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "advice on data science careers at German banks",
+      "source_note_ids": [
+        "n_360099a4"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "n_360099a4",
+      "text": "Noah Becker - friend from Freiburg, now at Mainstadt Bank in Frankfurt doing credit risk modeling (Python, SAS). Said he can tell me about working in finance in Germany and data science roles at banks.",
+      "source_type": "note",
+      "created_at": "2025-12-30T20:30:00Z"
+    }
+  ]
+}

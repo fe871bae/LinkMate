@@ -1,0 +1,43 @@
+{
+  "id": "c_2bafe7ac",
+  "name": "Carlos Mendoza",
+  "aliases": [],
+  "organization": "",
+  "role": "Forklift operator at the port",
+  "location": "Long Beach, CA",
+  "met_context": "Neighbor on 4th Street",
+  "summary": "Neighbor who repairs bikes and offered to help with moving using his pickup truck.",
+  "created_at": "2026-08-30T02:15:00Z",
+  "updated_at": "2026-08-30T02:15:00Z",
+  "facts": [
+    {
+      "kind": "skill",
+      "value": "bike repair",
+      "source_note_ids": [
+        "n_54f1e2a3"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "help moving with his pickup truck",
+      "source_note_ids": [
+        "n_54f1e2a3"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "bike repair",
+      "source_note_ids": [
+        "n_54f1e2a3"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "n_54f1e2a3",
+      "text": "Carlos Mendoza lives two doors down on 4th Street. Fixes bikes in his garage for half the neighborhood, he trued my wheel for free. Has a pickup truck and said he can help when I move out in December, just bring beer. Works night shifts as a forklift operator at the port.",
+      "source_type": "note",
+      "created_at": "2026-08-30T02:15:00Z"
+    }
+  ]
+}

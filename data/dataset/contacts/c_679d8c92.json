@@ -1,0 +1,36 @@
+{
+  "id": "c_679d8c92",
+  "name": "Maria Gonzalez",
+  "aliases": [],
+  "organization": "The Atherton Apartments",
+  "role": "Leasing manager",
+  "location": "Long Beach, CA",
+  "met_context": "Apartment viewing near campus",
+  "summary": "Leasing manager near campus who will notify Felix about free apartments and sublets.",
+  "created_at": "2026-07-30T20:00:00Z",
+  "updated_at": "2026-07-30T20:00:00Z",
+  "facts": [
+    {
+      "kind": "skill",
+      "value": "apartment leasing",
+      "source_note_ids": [
+        "n_5335dec1"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "notify about available apartments",
+      "source_note_ids": [
+        "n_5335dec1"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "n_5335dec1",
+      "text": "Maria Gonzalez, leasing manager at The Atherton apartments near campus. Knows which units open up when and about sublets from students going abroad. Said she'd text me if a 1-bedroom becomes available before January.",
+      "source_type": "note",
+      "created_at": "2026-07-30T20:00:00Z"
+    }
+  ]
+}

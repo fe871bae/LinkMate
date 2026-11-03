@@ -1,0 +1,56 @@
+{
+  "id": "c_26e033df",
+  "name": "Nina Petrova",
+  "aliases": [],
+  "organization": "CSULB Mathematics Department",
+  "role": "Teaching assistant, master's student",
+  "location": "Long Beach, CA",
+  "met_context": "TA for Probability & Statistics",
+  "summary": "Statistics TA working on Bayesian models who offered weekly MCMC tutoring.",
+  "created_at": "2026-02-10T22:30:00Z",
+  "updated_at": "2026-10-23T19:00:00Z",
+  "facts": [
+    {
+      "kind": "skill",
+      "value": "Bayesian hierarchical models",
+      "source_note_ids": [
+        "n_2b1304c0"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "MCMC / Metropolis-Hastings",
+      "source_note_ids": [
+        "n_81d2285e"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "tutoring on MCMC and statistics",
+      "source_note_ids": [
+        "n_81d2285e"
+      ]
+    },
+    {
+      "kind": "interest",
+      "value": "chess",
+      "source_note_ids": [
+        "n_81d2285e"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "n_2b1304c0",
+      "text": "Nina Petrova, TA for Probability & Statistics. Doing her master's thesis on Bayesian hierarchical models. Explains really well.",
+      "source_type": "note",
+      "created_at": "2026-02-10T22:30:00Z"
+    },
+    {
+      "id": "n_81d2285e",
+      "text": "Asked Nina about the MCMC assignment (Metropolis-Hastings, burn-in, convergence). She offered weekly tutoring sessions on Thursdays in the stats lab. Also plays chess competitively.",
+      "source_type": "note",
+      "created_at": "2026-10-23T19:00:00Z"
+    }
+  ]
+}

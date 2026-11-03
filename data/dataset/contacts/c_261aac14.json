@@ -1,0 +1,43 @@
+{
+  "id": "c_261aac14",
+  "name": "Sofia Alvarez",
+  "aliases": [],
+  "organization": "CSULB International Student Services",
+  "role": "International student advisor",
+  "location": "Long Beach, CA",
+  "met_context": "Advising appointment at International Student Services",
+  "summary": "Advisor for F-1 students who knows CPT and OPT work authorization in detail.",
+  "created_at": "2026-01-30T18:00:00Z",
+  "updated_at": "2026-01-30T18:00:00Z",
+  "facts": [
+    {
+      "kind": "skill",
+      "value": "F-1 visa regulations",
+      "source_note_ids": [
+        "n_60b0cf2b"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "CPT and OPT work authorization",
+      "source_note_ids": [
+        "n_60b0cf2b"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "advice on OPT application",
+      "source_note_ids": [
+        "n_60b0cf2b"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "n_60b0cf2b",
+      "text": "Sofia Alvarez, international student advisor at the CSULB International Student Services office. Knows everything about F-1 status, CPT and OPT applications. Book appointments online, she answers emails within a day. Told me to start the OPT application 90 days before graduation.",
+      "source_type": "note",
+      "created_at": "2026-01-30T18:00:00Z"
+    }
+  ]
+}

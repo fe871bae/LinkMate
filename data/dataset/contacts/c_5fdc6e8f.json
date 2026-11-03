@@ -1,0 +1,36 @@
+{
+  "id": "c_5fdc6e8f",
+  "name": "Ella Martin",
+  "aliases": [],
+  "organization": "CSULB",
+  "role": "Teaching assistant, CECS 451",
+  "location": "Long Beach, CA",
+  "met_context": "CECS 451 course",
+  "summary": "CECS 451 TA responsible for project grading, submissions and deadline questions.",
+  "created_at": "2026-08-27T18:00:00Z",
+  "updated_at": "2026-08-27T18:00:00Z",
+  "facts": [
+    {
+      "kind": "skill",
+      "value": "course logistics and grading",
+      "source_note_ids": [
+        "n_a00857e6"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "questions about deadlines and extensions",
+      "source_note_ids": [
+        "n_a00857e6"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "n_a00857e6",
+      "text": "Ella Martin, TA for CECS 451. Handles project grading and submissions on Canvas. Office hours Mon 11-12. Said to email her early if our team needs a deadline extension.",
+      "source_type": "note",
+      "created_at": "2026-08-27T18:00:00Z"
+    }
+  ]
+}

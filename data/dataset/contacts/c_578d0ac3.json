@@ -1,0 +1,66 @@
+{
+  "id": "c_578d0ac3",
+  "name": "Julia Brenner",
+  "aliases": [
+    "Jules"
+  ],
+  "organization": "Feldwerk",
+  "role": "Senior UX designer",
+  "location": "Hamburg, Germany",
+  "met_context": "School friend from Munich (same Abitur class)",
+  "summary": "UX designer and old school friend who now does usability testing at a Hamburg agency and offered to review UI mockups.",
+  "created_at": "2025-05-10T18:40:00Z",
+  "updated_at": "2026-07-21T17:00:00Z",
+  "facts": [
+    {
+      "kind": "skill",
+      "value": "UX design",
+      "source_note_ids": [
+        "n_4c7bd48b"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "mobile app design",
+      "source_note_ids": [
+        "n_4c7bd48b"
+      ]
+    },
+    {
+      "kind": "offers_help",
+      "value": "review UI mockups",
+      "source_note_ids": [
+        "n_4c7bd48b",
+        "n_d8b24e54"
+      ]
+    },
+    {
+      "kind": "interest",
+      "value": "ceramics",
+      "source_note_ids": [
+        "n_4c7bd48b"
+      ]
+    },
+    {
+      "kind": "skill",
+      "value": "usability testing",
+      "source_note_ids": [
+        "n_d8b24e54"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "n_4c7bd48b",
+      "text": "Jules (Julia Brenner) - friend from school in Munich, we were in the same Abi class. She's a UX designer at Kontora, a fintech in Berlin, mostly mobile banking apps. Said she'd look over my UI mockups whenever I want, she loves giving design feedback. Big into ceramics lately.",
+      "source_type": "note",
+      "created_at": "2025-05-10T18:40:00Z"
+    },
+    {
+      "id": "n_d8b24e54",
+      "text": "Call with Jules. She left Kontora and now works at Feldwerk, a design agency in Hamburg, as senior UX designer. Doing a lot of usability testing now. Offer to review my app UI still stands.",
+      "source_type": "note",
+      "created_at": "2026-07-21T17:00:00Z"
+    }
+  ]
+}
