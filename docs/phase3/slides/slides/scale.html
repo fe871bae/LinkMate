@@ -1,0 +1,12 @@
+<section id="scale" data-transition="fade" style="background:#faf9f5;color:#16243a;font-family:'DM Sans', Arial, sans-serif;padding:128px;display:flex;flex-direction:column;gap:48px">
+<h2 style="font-size:72px;font-weight:700;line-height:1.1">Speed scales far past one person’s network. Quality falls first.</h2>
+<table style="font-size:34px">
+<tr><th style="width:28%;text-align:left">Contacts</th><th style="width:24%;text-align:left">Full index</th><th style="width:24%;text-align:left">Search</th><th style="width:24%;text-align:left">Recall@3</th></tr>
+<tr><td>55</td><td>4 s</td><td>44 ms</td><td>1.00</td></tr>
+<tr><td>555</td><td>24 s</td><td>28 ms</td><td>1.00</td></tr>
+<tr><td>2,055</td><td>87 s</td><td>25 ms</td><td>0.96</td></tr>
+<tr><td>5,055</td><td>198 s</td><td>25 ms</td><td>0.79</td></tr>
+</table>
+<p style="font-size:36px;line-height:1.3;color:#4a5568">Generated contacts, development questions. Above about 2,000 contacts, retrieval needs work, and reading all JSON files on each question should move to a database.</p>
+<aside>A personal network of up to about two thousand contacts works on a laptop, measured on generated contacts. Above that, recall falls and the JSON store should be replaced.</aside>
+</section>
