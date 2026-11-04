@@ -71,8 +71,8 @@ To reset the data, stop the app and run this. It removes all contacts in `data/c
 | Page | What it does |
 |---|---|
 | Capture | Paste a note or email, review the proposed profile, then save it as a new contact or add it to an existing one |
-| Ask | Ask for a contact in `dense`, `bm25` or `hybrid` mode and see the reason, sources, confidence label, candidates and timings |
-| Contacts | Browse contacts with facts and notes, edit a profile, export everything as JSON, delete a contact or a note |
+| Ask | Ask for a contact in `dense`, `bm25` or `hybrid` mode and see all details of the contact, the reason, sources, confidence label, candidates and timings |
+| Contacts | Browse contacts with all details and notes, edit a profile, export everything as JSON, delete a contact or a note |
 | Status | Check Ollama and models, index sync, corrupt files and LLM latency, rebuild the index, delete the LLM log |
 
 ## Reproduce a sample result

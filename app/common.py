@@ -17,7 +17,7 @@ import streamlit as st
 import streamlit.components.v1 as components
 
 from linkmate.config import load_config
-from linkmate.models import ProfileDraft
+from linkmate.models import Contact, ProfileDraft
 from linkmate.services import OllamaError, Services, build_services
 from linkmate.services.contacts import SystemStatus
 
@@ -120,6 +120,34 @@ def profile_form_fields(draft: ProfileDraft, key: str, list_prefix: str = "") ->
 
 def _split_lines(text: str) -> list[str]:
     return [line.strip() for line in text.splitlines() if line.strip()]
+
+
+def render_contact_details(contact: Contact, with_note_links: bool = False) -> None:
+    """Everything known about a contact. Used on the Ask and the Contacts page."""
+    numbers = {note.id: number for number, note in enumerate(contact.notes, start=1)}
+    left, right = st.columns(2)
+    with left:
+        for label, value in (
+            ("Organization", contact.organization),
+            ("Role", contact.role),
+            ("Location", contact.location),
+            ("Where met", contact.met_context),
+            ("Also known as", ", ".join(contact.aliases)),
+        ):
+            if value:
+                st.markdown(f"**{label}:** {safe_md(value)}")
+        if contact.summary:
+            st.markdown(safe_md(contact.summary))
+    with right:
+        for label, kind in (("Skills", "skill"), ("Interests", "interest"), ("Offers help with", "offers_help")):
+            facts = [fact for fact in contact.facts if fact.kind == kind]
+            if facts:
+                st.markdown(f"**{label}**")
+                for fact in facts:
+                    origin = ", ".join(f"note {numbers[n]}" for n in fact.source_note_ids if n in numbers)
+                    suffix = f" ({origin})" if with_note_links and origin else ""
+                    st.markdown(f"- {safe_md(fact.value)}{suffix}")
+    st.caption(f"Added {contact.created_at:%Y-%m-%d}, updated {contact.updated_at:%Y-%m-%d}, {len(contact.notes)} note{'s' if len(contact.notes) != 1 else ''}")
 
 
 def render_sources(sources) -> None:

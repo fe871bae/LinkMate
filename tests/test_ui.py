@@ -158,3 +158,39 @@ def test_adding_a_note_shows_what_is_known_and_keeps_it(open_page, services, llm
     saved = store.get(contact.id)
     assert saved.organization == "Kessler" and saved.values_of("skill") == ["IMU"]
     assert saved.values_of("interest") == ["fishing"] and len(saved.notes) == 2
+
+
+def lena_with_details(services):
+    draft = ProfileDraft(
+        name="Lena Hoffmann", aliases=["Leni"], organization="Kessler", role="Team lead", location="Stuttgart",
+        met_context="Internship", summary="Calibrates IMUs.", skills=["IMU calibration"], interests=["bouldering"],
+        offers_help=["sensor advice"],
+    )
+    return services.capture.confirm(NOTE, "note", draft).contact
+
+
+def page_text(page):
+    return " ".join(item.value for item in page.markdown)
+
+
+DETAILS = ("Kessler", "Team lead", "Stuttgart", "Internship", "Leni", "Calibrates IMUs", "IMU calibration", "bouldering", "sensor advice")
+
+
+def test_ask_page_shows_all_details_of_a_found_contact(open_page, services, llm):
+    lena_with_details(services)
+    llm.answers.append(json.dumps({"recommendations": [{"contact": "C1", "reason": "Fits.", "sources": ["S1"]}]}))
+    page = open_page("2_Ask.py")
+    field(page, "What do you need?").set_value(NOTE)
+    text = page_text(click(page, "Ask"))
+    assert all(detail.replace(" ", "") in text.replace("\\", "").replace(" ", "") for detail in DETAILS)
+
+
+def test_contact_list_shows_all_details_and_can_collapse(open_page, services):
+    lena_with_details(services)
+    page = open_page("3_Contacts.py")
+    assert page.expander[0].proto.expanded
+    text = page_text(page)
+    assert all(detail.replace(" ", "") in text.replace("\\", "").replace(" ", "") for detail in DETAILS)
+    assert "(note 1)" in text.replace("\\", "")
+    page.toggle[0].set_value(False).run()
+    assert not page.expander[0].proto.expanded

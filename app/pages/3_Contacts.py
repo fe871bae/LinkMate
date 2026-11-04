@@ -1,6 +1,6 @@
 """Browse contacts with their facts and source notes. Delete contacts and notes."""
 
-from common import get_services, profile_form_fields, safe_md, setup_page
+from common import get_services, profile_form_fields, render_contact_details, safe_md, setup_page
 
 import streamlit as st
 
@@ -23,6 +23,7 @@ if query:
     contacts = [c for c in contacts if query in c.name.lower() or query in c.organization.lower()]
 
 st.caption(f"{len(contacts)} contacts")
+show_all = st.toggle("Show all details", value=True)
 if contacts:
     st.download_button(
         "Export all contacts as JSON",
@@ -48,24 +49,9 @@ def finish_edit(error: str) -> None:
 
 
 for contact in contacts:
-    title = safe_md(contact.name + (f" · {contact.organization}" if contact.organization else ""))
-    with st.expander(title):
-        if contact.aliases:
-            st.markdown(f"**Also known as:** {safe_md(', '.join(contact.aliases))}")
-        for label, value in (("Role", contact.role), ("Location", contact.location), ("Where met", contact.met_context)):
-            if value:
-                st.markdown(f"**{label}:** {safe_md(value)}")
-        if contact.summary:
-            st.markdown(safe_md(contact.summary))
-
-        notes_by_id = {note.id: index for index, note in enumerate(contact.notes, start=1)}
-        for label, kind in (("Skills", "skill"), ("Interests", "interest"), ("Offers help with", "offers_help")):
-            facts = [fact for fact in contact.facts if fact.kind == kind]
-            if facts:
-                st.markdown(f"**{label}**")
-                for fact in facts:
-                    origin = ", ".join(f"note {notes_by_id[n]}" for n in fact.source_note_ids if n in notes_by_id)
-                    st.markdown(f"- {safe_md(fact.value)} ({origin})")
+    title = safe_md(" · ".join(part for part in (contact.name, contact.organization, contact.role) if part))
+    with st.expander(title, expanded=show_all):
+        render_contact_details(contact, with_note_links=True)
 
         for index, note in enumerate(contact.notes, start=1):
             st.markdown(f"**Note {index}** · {note.source_type} · {note.created_at:%Y-%m-%d}")
