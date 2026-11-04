@@ -92,7 +92,8 @@ def test_typed_name_of_existing_contact_asks_before_creating_a_duplicate(open_pa
     assert len(store.all()) == 1 and page.warning
     assert field(page, "Name").value == "Lena Hoffmann"
 
-    page.radio[1].set_value("Create a new contact")
+    page = page.radio[1].set_value("Create a new contact").run()
+    assert field(page, "Name").value == "Lena Hoffmann"
     click(page, "Confirm and save")
     assert len(store.all()) == 2  # two people can share a name, the user decided
 
@@ -142,3 +143,18 @@ def test_weak_match_is_labeled_on_the_ask_page(open_page, services, llm):
     field(page, "What do you need?").set_value(NOTE)
     page = click(page, "Ask")
     assert any("Weak match" in warning.value for warning in page.warning)
+
+
+def test_adding_a_note_shows_what_is_known_and_keeps_it(open_page, services, llm, store):
+    contact = services.capture.confirm(
+        NOTE, "note", ProfileDraft(name="Lena Hoffmann", organization="Kessler", summary="Calibrates IMUs.", skills=["IMU"])
+    ).contact
+    llm.answers.append(profile_json(name="Lena Hoffmann", summary="Likes fishing.", interests=["fishing"]))
+    page = extract(open_page("1_Capture.py"), "Lena Hoffmann likes fishing")
+    assert field(page, "Organization").value == "Kessler"
+    assert field(page, "Summary").value == "Calibrates IMUs. Likes fishing."
+    assert field(page, "New: Interests (one per line)").value == "fishing"
+    page = click(page, "Confirm and save")
+    saved = store.get(contact.id)
+    assert saved.organization == "Kessler" and saved.values_of("skill") == ["IMU"]
+    assert saved.values_of("interest") == ["fishing"] and len(saved.notes) == 2

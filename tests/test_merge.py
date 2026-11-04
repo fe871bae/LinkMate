@@ -1,4 +1,4 @@
-from linkmate.core.merge import create_contact, find_matches, merge_into, name_similarity
+from linkmate.core.merge import additive_draft, combine_summary, create_contact, find_matches, merge_into, name_similarity
 from linkmate.models import Contact, Note, ProfileDraft
 
 
@@ -70,3 +70,49 @@ def test_merge_keeps_full_name_and_adds_short_name_as_alias():
 def test_names_in_any_script_match_and_accents_are_ignored():
     assert name_similarity("李明", "李明") == 1.0
     assert name_similarity("José García", "Jose Garcia") == 1.0
+
+
+def known_contact():
+    note = Note(id="n_1", text="Jonas Keller, firmware engineer at Brightcell.")
+    contact = create_contact(
+        ProfileDraft(
+            name="Jonas Keller", organization="Brightcell", role="firmware engineer", location="Long Beach",
+            met_context="embedded night", summary="Firmware engineer at Brightcell.", skills=["STM32"],
+            offers_help=["debug firmware"],
+        ),
+        note,
+    )
+    return contact
+
+
+def test_side_note_keeps_everything_known_and_only_adds():
+    contact = known_contact()
+    side_note = ProfileDraft(name="Jonas Keller", summary="Jonas Keller likes fishing.", interests=["fishing"])
+    merged, changes = merge_into(contact, side_note, Note(id="n_2", text="Jonas Keller likes fishing"))
+    assert (merged.organization, merged.role, merged.location) == ("Brightcell", "firmware engineer", "Long Beach")
+    assert merged.summary == "Firmware engineer at Brightcell. Jonas Keller likes fishing."
+    assert merged.values_of("skill") == ["STM32"] and merged.values_of("interest") == ["fishing"]
+    assert [note.id for note in merged.notes] == ["n_1", "n_2"] and changes == []
+
+
+def test_review_form_keeps_known_values_and_lists_only_new_facts():
+    contact = known_contact()
+    note = ProfileDraft(name="Jonas", role="angler", location="", summary="Likes fishing.", skills=["STM32"], interests=["fishing"])
+    draft = additive_draft(contact, note)
+    assert (draft.name, draft.role, draft.location) == ("Jonas Keller", "firmware engineer", "Long Beach")
+    assert draft.summary == "Firmware engineer at Brightcell. Likes fishing."
+    assert draft.skills == [] and draft.interests == ["fishing"] and draft.aliases == ["Jonas"]
+
+
+def test_confirming_the_review_links_only_new_facts_to_the_new_note():
+    contact = known_contact()
+    draft = additive_draft(contact, ProfileDraft(name="Jonas Keller", skills=["STM32"], interests=["fishing"]))
+    merged, _ = merge_into(contact, draft, Note(id="n_2", text="likes fishing"))
+    sources = {fact.value: fact.source_note_ids for fact in merged.facts}
+    assert sources["STM32"] == ["n_1"] and sources["fishing"] == ["n_2"]
+
+
+def test_summary_is_not_duplicated():
+    assert combine_summary("Likes fishing.", "Likes fishing.") == "Likes fishing."
+    assert combine_summary("Likes fishing.", "Likes fishing. Runs too.") == "Likes fishing. Runs too."
+    assert combine_summary("", "New.") == "New." and combine_summary("Old.", "") == "Old."

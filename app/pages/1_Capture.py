@@ -69,13 +69,32 @@ if proposal:
     )
     target_id = options[target_label]
 
-    draft = proposal.draft
-    if target_id:
-        for change in services.capture.preview(target_id, draft):
-            st.info(f"{change.field.title()} will change from '{safe_md(change.old)}' to '{safe_md(change.new)}'.")
+    draft, list_prefix, form_key = proposal.draft, "", str(number)
+    review = services.capture.additive_review(target_id, proposal.draft) if target_id else None
+    if target_id and not review:
+        st.error("This contact no longer exists. Choose to create a new contact instead.")
+    if review:
+        contact, draft = review
+        list_prefix, form_key = "New: ", f"{number}_{target_id}"
+        st.info(f"This note is added to {safe_md(contact.name)}. Everything already known stays.")
+        known = {
+            "Skills": contact.values_of("skill"),
+            "Interests": contact.values_of("interest"),
+            "Offers of help": contact.values_of("offers_help"),
+        }
+        with st.expander("Already known", expanded=True):
+            for label, values in known.items():
+                if values:
+                    st.markdown(f"**{label}:** {safe_md(', '.join(values))}")
+            st.caption(f"{len(contact.notes)} earlier notes stay attached.")
+        for change in services.capture.preview(target_id, proposal.draft):
+            st.info(
+                f"The note suggests {change.field} '{safe_md(change.new)}'. The current value stays "
+                "unless you change it below."
+            )
 
-    with st.form(f"capture_review_{number}"):
-        edited = profile_form_fields(draft, str(number))
+    with st.form(f"capture_review_{form_key}"):
+        edited = profile_form_fields(draft, form_key, list_prefix)
         with st.expander("Original note"):
             st.text(proposal.note_text)
         save = st.form_submit_button("Confirm and save", type="primary")
@@ -92,6 +111,7 @@ if proposal:
         elif target_id is None and any(match.contact_id not in known for match in matches):
             # The name was typed or changed in the form, so it was not compared yet.
             proposal.matches = matches
+            proposal.draft = edited
             st.session_state[NOTICE_KEY] = (
                 f"A contact with a similar name to {edited.name} already exists. "
                 "Choose below, then save again."

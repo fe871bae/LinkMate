@@ -57,7 +57,7 @@ We do not trust the model blindly. Teal is AI, white is plain code, and coral is
 
 ## 8. Architecture (Mika)
 
-Technically, this is four layers on one machine. Streamlit pages only call services. Services use a core of pure functions and three infrastructure classes for Ollama, the contact store and the search index. JSON files are the source of truth, and the Chroma index can be rebuilt at any time. With a fake model plugged in, ninety-three unit tests run without Ollama.
+Technically, this is four layers on one machine. Streamlit pages only call services. Services use a core of pure functions and three infrastructure classes for Ollama, the contact store and the search index. JSON files are the source of truth, and the Chroma index can be rebuilt at any time. With a fake model plugged in, ninety-eight unit tests run without Ollama.
 
 ## 9. Demo (Mika)
 

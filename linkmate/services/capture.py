@@ -6,7 +6,7 @@ from dataclasses import dataclass, field
 from datetime import datetime
 
 from linkmate.core.extraction import clean_profile, unsupported_values
-from linkmate.core.merge import ContactMatch, FieldChange, create_contact, find_matches, merge_into, preview_changes
+from linkmate.core.merge import ContactMatch, FieldChange, additive_draft, create_contact, find_matches, merge_into, preview_changes
 from linkmate.core.sanitize import looks_like_injection, strip_injection
 from linkmate.core.prompts import EXTRACTION_SYSTEM, PROFILE_SCHEMA, extraction_user_prompt
 from linkmate.core.validation import InvalidLLMOutput, parse_profile
@@ -54,6 +54,11 @@ class CaptureService:
     def preview(self, contact_id: str, draft: ProfileDraft) -> list[FieldChange]:
         contact = self._store.get(contact_id)
         return preview_changes(contact, draft) if contact else []
+
+    def additive_review(self, contact_id: str, draft: ProfileDraft) -> tuple[Contact, ProfileDraft] | None:
+        """The contact and the form values for adding a note to it. Nothing known gets lost."""
+        contact = self._store.get(contact_id)
+        return (contact, additive_draft(contact, draft)) if contact else None
 
     def confirm(
         self,

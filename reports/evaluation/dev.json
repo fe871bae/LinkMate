@@ -196,7 +196,7 @@
     ],
     "dropped": [],
     "failure": "ok",
-    "seconds": 1.78
+    "seconds": 1.44
    },
    {
     "id": "q02",
@@ -237,7 +237,7 @@
     ],
     "dropped": [],
     "failure": "ok",
-    "seconds": 1.07
+    "seconds": 1.15
    },
    {
     "id": "q03",
@@ -262,7 +262,7 @@
     ],
     "dropped": [],
     "failure": "ok",
-    "seconds": 1.04
+    "seconds": 0.73
    },
    {
     "id": "q04",
@@ -303,7 +303,7 @@
     ],
     "dropped": [],
     "failure": "ok",
-    "seconds": 1.9
+    "seconds": 1.43
    },
    {
     "id": "q05",
@@ -344,7 +344,7 @@
     ],
     "dropped": [],
     "failure": "ok",
-    "seconds": 1.35
+    "seconds": 1.52
    },
    {
     "id": "q06",
@@ -369,7 +369,7 @@
     ],
     "dropped": [],
     "failure": "ok",
-    "seconds": 1.25
+    "seconds": 1.01
    },
    {
     "id": "q07",
@@ -402,7 +402,7 @@
     ],
     "dropped": [],
     "failure": "ok",
-    "seconds": 1.99
+    "seconds": 1.49
    },
    {
     "id": "q08",
@@ -439,7 +439,7 @@
     ],
     "dropped": [],
     "failure": "ok",
-    "seconds": 1.14
+    "seconds": 1.23
    },
    {
     "id": "q09",
@@ -480,7 +480,7 @@
     ],
     "dropped": [],
     "failure": "ok",
-    "seconds": 1.0
+    "seconds": 1.24
    },
    {
     "id": "q10",
@@ -521,7 +521,7 @@
     ],
     "dropped": [],
     "failure": "ok",
-    "seconds": 1.17
+    "seconds": 1.44
    },
    {
     "id": "q11",
@@ -562,7 +562,7 @@
     ],
     "dropped": [],
     "failure": "ok",
-    "seconds": 0.85
+    "seconds": 1.02
    },
    {
     "id": "q12",
@@ -601,7 +601,7 @@
      "C1: source does not belong to this contact"
     ],
     "failure": "dropped by validation",
-    "seconds": 2.35
+    "seconds": 1.53
    },
    {
     "id": "q13",
@@ -634,7 +634,7 @@
     ],
     "dropped": [],
     "failure": "ok",
-    "seconds": 1.33
+    "seconds": 0.99
    },
    {
     "id": "q14",
@@ -676,7 +676,7 @@
     ],
     "dropped": [],
     "failure": "ok",
-    "seconds": 1.14
+    "seconds": 1.29
    },
    {
     "id": "q15",
@@ -711,7 +711,7 @@
      "C2: source does not belong to this contact"
     ],
     "failure": "dropped by validation",
-    "seconds": 1.57
+    "seconds": 1.17
    },
    {
     "id": "q16",
@@ -736,7 +736,7 @@
     ],
     "dropped": [],
     "failure": "ok",
-    "seconds": 1.53
+    "seconds": 1.09
    },
    {
     "id": "q17",
@@ -777,7 +777,7 @@
     ],
     "dropped": [],
     "failure": "ok",
-    "seconds": 1.42
+    "seconds": 1.03
    },
    {
     "id": "q18",
@@ -818,7 +818,7 @@
     ],
     "dropped": [],
     "failure": "ok",
-    "seconds": 1.75
+    "seconds": 1.24
    },
    {
     "id": "q19",
@@ -859,7 +859,7 @@
     ],
     "dropped": [],
     "failure": "ok",
-    "seconds": 0.87
+    "seconds": 0.98
    },
    {
     "id": "q20",
@@ -896,7 +896,7 @@
     ],
     "dropped": [],
     "failure": "ok",
-    "seconds": 1.45
+    "seconds": 1.04
    },
    {
     "id": "q21",
@@ -921,7 +921,7 @@
     ],
     "dropped": [],
     "failure": "ok",
-    "seconds": 1.31
+    "seconds": 0.97
    },
    {
     "id": "q22",
@@ -962,7 +962,7 @@
     ],
     "dropped": [],
     "failure": "ok",
-    "seconds": 1.51
+    "seconds": 1.07
    },
    {
     "id": "q23",
@@ -1004,7 +1004,7 @@
     ],
     "dropped": [],
     "failure": "model chose wrong contact",
-    "seconds": 1.09
+    "seconds": 1.29
    },
    {
     "id": "q24",
@@ -1042,7 +1042,7 @@
     ],
     "dropped": [],
     "failure": "ok",
-    "seconds": 1.08
+    "seconds": 0.82
    },
    {
     "id": "q25",
@@ -1079,7 +1079,7 @@
      "C1: source does not belong to this contact"
     ],
     "failure": "ok",
-    "seconds": 1.71
+    "seconds": 1.26
    },
    {
     "id": "q26",
@@ -1124,7 +1124,7 @@
     ],
     "dropped": [],
     "failure": "near miss accepted",
-    "seconds": 1.71
+    "seconds": 1.07
    },
    {
     "id": "q28",
@@ -1177,7 +1177,7 @@
     ],
     "dropped": [],
     "failure": "near miss accepted",
-    "seconds": 0.91
+    "seconds": 1.13
    },
    {
     "id": "q30",
@@ -1216,44 +1216,44 @@
     ],
     "dropped": [],
     "failure": "near miss accepted",
-    "seconds": 1.12
+    "seconds": 1.16
    }
   ],
   "seconds": [
-   1.775227416990674,
-   1.0710546670015901,
-   1.0445374170085415,
-   1.9006392919982318,
-   1.3535040419956204,
-   1.2526209999923594,
-   1.9914615000016056,
-   1.142055457996321,
-   1.0048514170048293,
-   1.1729807080118917,
-   0.8546736660064198,
-   2.354030625006999,
-   1.334004582997295,
-   1.138964958008728,
-   1.5736412910046056,
-   1.5304300420102663,
-   1.4182990419940325,
-   1.752514332998544,
-   0.8734202909981832,
-   1.4507807920017513,
-   1.310520708997501,
-   1.5051728329999605,
-   1.0897988329961663,
-   1.0784554999991087,
-   1.714543959009461,
-   0.03140258300118148,
-   1.7094572920032078,
-   0.032513042009668425,
-   0.911600040999474,
-   1.12229795899475
+   1.4397865409991937,
+   1.1481884579989128,
+   0.731539000000339,
+   1.4342134579928825,
+   1.5151076250040205,
+   1.0119603749917587,
+   1.4911124589998508,
+   1.2273062500025844,
+   1.2361709169927053,
+   1.4410773330018856,
+   1.0245464170002379,
+   1.5336530829954427,
+   0.9875716250098776,
+   1.2948916669993196,
+   1.1740889999928186,
+   1.0864889590011444,
+   1.0256918329978362,
+   1.2384866249922197,
+   0.9750050419970648,
+   1.042027749994304,
+   0.9667709159984952,
+   1.0667412500042701,
+   1.2906833329907386,
+   0.8172750000085216,
+   1.2562555410113418,
+   0.03380395799467806,
+   1.074755333000212,
+   0.026362332995631732,
+   1.1273037499922793,
+   1.1554564169928199
   ],
   "supports": [
    0.5714285714285714,
-   0.4090909090909091,
+   0.36363636363636365,
    0.5,
    0.5555555555555556,
    0.5652173913043478,
@@ -1275,7 +1275,7 @@
    0.4090909090909091,
    0.6923076923076923,
    0.85,
-   0.4090909090909091,
+   0.5,
    0.9565217391304348
   ],
   "reasons": [
@@ -1292,8 +1292,8 @@
     "question_id": "q02",
     "question": "I need someone to review my resume before applying for internships.",
     "contact": "Sarah Whitfield",
-    "reason": "Sarah Whitfield is a career advisor at CSULB who reviews resumes and offers resume review services. She mentioned that her resume is too long and can be quantified, which directly addresses the need for a resume review before applying for internships.",
-    "support": 0.41,
+    "reason": "Sarah Whitfield is a career advisor who reviews resumes and offers resume review services. She also mentioned her resume is too long and can be quantified, which directly addresses the need for a resume review before applying for internships.",
+    "support": 0.36,
     "relevant": "yes",
     "cited_notes": "Sarah Whitfield, career advisor at the CSULB Career Development Center. Does resume reviews and mock interviews for engineering students. Booked a slot for next week. She said my resume is too long (2 pages) and to quantify results."
    },
@@ -1490,8 +1490,8 @@
     "question_id": "q29",
     "question": "Who could photograph a wedding in Munich next spring?",
     "contact": "Emma Lindqvist",
-    "reason": "Emma Lindqvist is a portrait photographer with a strong portfolio and offers to take headshots for her LinkedIn profile. She has a proper camera and lighting setup, which directly supports her ability to photograph wedding photos.",
-    "support": 0.41,
+    "reason": "Emma Lindqvist is a portrait photographer with a strong portfolio and offers to take headshots for her LinkedIn profile. She has a proper camera and lighting setup, which directly supports the need for photography.",
+    "support": 0.5,
     "relevant": "no",
     "cited_notes": "Emma Lindqvist - exchange student from Uppsala, in my stats class. Does portrait photography on the side, has a proper camera + lighting. Offered to take headshots for my LinkedIn since mine is a cropped party photo lol."
    },
@@ -1554,8 +1554,8 @@
   }
  },
  "latency": {
-  "p50": 1.2815708544949302,
-  "p95": 1.9505915064000872
+  "p50": 1.137746103995596,
+  "p95": 1.504309800302144
  },
  "memory": "NAME                       ID              SIZE      PROCESSOR    CONTEXT    UNTIL              \nqwen3:0.6b                 7df6b6e09427    810 MB    100% GPU     4096       4 minutes from now    \nnomic-embed-text:latest    0a109f422b47    370 MB    100% GPU     2048       4 minutes from now",
  "extraction": {
@@ -1604,8 +1604,8 @@
    ]
   },
   "flagged_values": 32,
-  "seconds_p50": 1.3149833334973664,
-  "seconds_p95": 1.5874265953527356
+  "seconds_p50": 1.005614333000267,
+  "seconds_p95": 1.1650036376486241
  },
  "pipeline": {
   "contacts_created": 56,
@@ -1754,5 +1754,5 @@
   "cases": 15,
   "warned": 10
  },
- "minutes": 4.948293792366652
+ "minutes": 4.027907463883214
 }

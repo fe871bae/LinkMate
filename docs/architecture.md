@@ -185,7 +185,7 @@ The source of truth is one JSON file per contact in `data/contacts/`, written th
 | Profile | `<contact id>:profile` | Rendered from all profile fields (`profile_text`) | `contact_id`, `doc_type=profile` |
 | Note chunk | `<note id>:<number>` | Note text, split at sentence ends above 500 characters (`chunk_text`) | `contact_id`, `note_id`, `doc_type=note` |
 
-Merge rules (`linkmate/core/merge.py`) are deterministic. Lists are combined without duplicates. For organization, role, location and summary the newest value wins and the change is shown to the user. Where someone was first met is only set once. A new name becomes an alias.
+Merge rules (`linkmate/core/merge.py`) are deterministic. A note always adds to a contact. Lists are combined without duplicates, the summary grows, and earlier notes stay attached. The review form starts from everything already known (`additive_draft`) and lists only new facts, so a fact is linked only to the note that states it. If a note suggests another organization, role or location, the current value stays unless the user changes it in the form, and the confirmed value then replaces the old one. Where someone was first met is only set once. A new name becomes an alias.
 
 ## 6. Interfaces
 

@@ -88,7 +88,7 @@ def show_ollama_error(error: OllamaError) -> None:
     st.error(f"Ollama problem: {safe_md(str(error))}")
 
 
-def profile_form_fields(draft: ProfileDraft, key: str) -> ProfileDraft:
+def profile_form_fields(draft: ProfileDraft, key: str, list_prefix: str = "") -> ProfileDraft:
     """The profile form used by the capture review and by the edit dialog. Call inside st.form."""
     name = st.text_input("Name", draft.name, key=f"name_{key}")
     aliases = st.text_input("Aliases (comma separated)", ", ".join(draft.aliases), key=f"aliases_{key}")
@@ -99,10 +99,10 @@ def profile_form_fields(draft: ProfileDraft, key: str) -> ProfileDraft:
     met_context = right.text_input("Where met", draft.met_context, key=f"met_context_{key}")
     summary = st.text_area("Summary", draft.summary, height=80, key=f"summary_{key}")
     first, second, third = st.columns(3)
-    skills = first.text_area("Skills (one per line)", "\n".join(draft.skills), height=140, key=f"skills_{key}")
-    interests = second.text_area("Interests (one per line)", "\n".join(draft.interests), height=140, key=f"interests_{key}")
+    skills = first.text_area(f"{list_prefix}Skills (one per line)", "\n".join(draft.skills), height=140, key=f"skills_{key}")
+    interests = second.text_area(f"{list_prefix}Interests (one per line)", "\n".join(draft.interests), height=140, key=f"interests_{key}")
     offers_help = third.text_area(
-        "Offers of help (one per line)", "\n".join(draft.offers_help), height=140, key=f"offers_help_{key}"
+        f"{list_prefix}Offers of help (one per line)", "\n".join(draft.offers_help), height=140, key=f"offers_help_{key}"
     )
     return ProfileDraft(
         name=name,

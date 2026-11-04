@@ -11,9 +11,10 @@ from linkmate.models import Contact, Fact, FactKind, Note, ProfileDraft, utc_now
 
 TITLES = {"prof", "professor", "dr", "mr", "mrs", "ms"}
 MATCH_CUTOFF = 0.8
-# Fields that change over time: the newest value wins. Where you met someone does
-# not change, so met_context is only filled if it was empty.
-SCALAR_FIELDS = ("organization", "role", "location", "summary")
+# Fields that change over time: a value the user confirms replaces the old one. Where you
+# met someone does not change, so met_context is only filled if it was empty. The summary
+# only ever grows, because a note about one detail must not erase what is known.
+SCALAR_FIELDS = ("organization", "role", "location")
 LIST_FIELDS: tuple[tuple[str, FactKind], ...] = (
     ("skills", "skill"),
     ("interests", "interest"),
@@ -74,6 +75,44 @@ def add_fact(contact: Contact, kind: FactKind, value: str, note_id: str) -> None
     contact.facts.append(Fact(kind=kind, value=value, source_note_ids=[note_id]))
 
 
+def combine_summary(old: str, new: str) -> str:
+    """Keep what is known and add what is new. A summary that already holds the old text wins."""
+    old, new = old.strip(), new.strip()
+    if not old or old.lower() in new.lower():
+        return new or old
+    if not new or new.lower() in old.lower():
+        return old
+    return f"{old.rstrip('.')}. {new}"
+
+
+def additive_draft(contact: Contact, draft: ProfileDraft) -> ProfileDraft:
+    """What the review shows when a note is added to a contact: everything known stays.
+
+    Existing fields are kept, empty ones are filled from the note, the summaries are combined,
+    and the lists hold only what is new, so that a fact is linked only to the note that states it."""
+    known = {(fact.kind, fact.value.lower()) for fact in contact.facts}
+    names = {contact.name.lower(), *(alias.lower() for alias in contact.aliases)}
+    aliases = list(contact.aliases)
+    for alias in [draft.name, *draft.aliases]:
+        if alias.strip() and alias.strip().lower() not in names:
+            names.add(alias.strip().lower())
+            aliases.append(alias.strip())
+    lists = {
+        field_name: [value for value in getattr(draft, field_name) if (kind, value.strip().lower()) not in known]
+        for field_name, kind in LIST_FIELDS
+    }
+    return ProfileDraft(
+        name=contact.name,
+        aliases=aliases,
+        organization=contact.organization or draft.organization,
+        role=contact.role or draft.role,
+        location=contact.location or draft.location,
+        met_context=contact.met_context or draft.met_context,
+        summary=combine_summary(contact.summary, draft.summary),
+        **lists,
+    )
+
+
 def preview_changes(contact: Contact, draft: ProfileDraft) -> list[FieldChange]:
     """Which existing values the newest note would replace."""
     changes = []
@@ -100,7 +139,7 @@ def create_contact(draft: ProfileDraft, note: Note) -> Contact:
 
 
 def merge_into(contact: Contact, draft: ProfileDraft, note: Note) -> tuple[Contact, list[FieldChange]]:
-    """Lists are combined without duplicates. For changed fields the newest value wins."""
+    """Lists are combined without duplicates and summaries grow. Changed fields take the confirmed value."""
     merged = contact.model_copy(deep=True)
     changes = preview_changes(merged, draft)
     for field_name in SCALAR_FIELDS:
@@ -118,6 +157,7 @@ def merge_into(contact: Contact, draft: ProfileDraft, note: Note) -> tuple[Conta
 
     if not merged.met_context:
         merged.met_context = draft.met_context.strip()
+    merged.summary = combine_summary(merged.summary, draft.summary)
 
     merged.notes.append(note)
     _add_lists(merged, draft, note.id)

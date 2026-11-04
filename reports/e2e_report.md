@@ -1,6 +1,6 @@
 # LinkMate PoC: end-to-end report
 
-Chat model `qwen3:0.6b`, embedding model `nomic-embed-text`, threshold 0.59, total run time 4.4 min.
+Chat model `qwen3:0.6b`, embedding model `nomic-embed-text`, threshold 0.59, total run time 2.7 min.
 
 | Scenario | Result |
 |---|---|
@@ -26,7 +26,7 @@ Right contact recommended: 21/24
 Correct refusals: 3/6
 Recommendations that are neither expected nor acceptable: 4/25
 Recommendations with an invalid source: 0
-Average time per question: 1.1 s
+Average time per question: 1.6 s
 
 | Question | Type | Result | Recommended | Expected |
 |---|---|---|---|---|
@@ -75,7 +75,7 @@ location correct (contacts with one note): 10/39
 Facts found (recall): 144/194 = 0.74
 Extracted items backed by a gold fact (precision): 157/244 = 0.64
 Values flagged as not in the note: 33
-Average time per note: 2.3 s
+Average time per note: 0.9 s
 
 ## Full pipeline from raw notes
 

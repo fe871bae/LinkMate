@@ -1,6 +1,6 @@
 # LinkMate evaluation: dev questions
 
-Chat model `qwen3:0.6b`, embedding model `nomic-embed-text`, 55 contacts, 30 questions. Run time 4.9 min.
+Chat model `qwen3:0.6b`, embedding model `nomic-embed-text`, 55 contacts, 30 questions. Run time 4.0 min.
 
 Configuration: threshold 0.59, strong_from 0.67, max_candidates 5.
 
@@ -54,7 +54,7 @@ Share of recommendations that are expected or acceptable, per label shown to the
 ## Citations and reasons
 
 Recommendations with an invalid source: 0 of 25.
-Word support of reasons in the cited notes: median 0.55, 15/25 at 0.5 or more.
+Word support of reasons in the cited notes: median 0.55, 16/25 at 0.5 or more.
 
 ## Failure analysis
 
@@ -109,7 +109,7 @@ Contacts are split at the median of their total note text (217 characters).
 
 ## Latency
 
-Per question: median 1.3 s, p95 2.0 s.
+Per question: median 1.1 s, p95 1.5 s.
 
 ```text
 NAME                       ID              SIZE      PROCESSOR    CONTEXT    UNTIL              
@@ -121,7 +121,7 @@ nomic-embed-text:latest    0a109f422b47    370 MB    100% GPU     2048       4 m
 
 Notes: 70. Invalid output after one retry: 0. Names correct: 70/70.
 Facts: recall 0.74 (144/194), precision 0.64 (157/244), F1 0.69. Values flagged as not in the note: 32.
-Time per note: median 1.3 s, p95 1.6 s.
+Time per note: median 1.0 s, p95 1.2 s.
 
 | Field (contacts with one note) | Correct |
 |---|---|
